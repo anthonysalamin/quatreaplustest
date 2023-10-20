@@ -1,0 +1,1416 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+  branch: main
+media_folder: theme/assets/images
+public_folder: /assets/images
+collections:
+  - name: pages
+    label: Pages
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    folder: cms/pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '{{slug}}.html'
+      - &ref_0
+        label: Seo
+        name: seo
+        widget: object
+        collapsed: true
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: No index
+            name: noindex
+            widget: boolean
+            default: false
+            required: false
+          - label: Open Graph Title
+            name: og:title
+            widget: string
+            required: false
+          - label: Open Graph Image
+            name: og:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Twitter Title
+            name: twitter:title
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Card
+            name: twitter:card
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Site
+            name: twitter:site
+            widget: string
+            required: false
+          - label: Twitter Creator
+            name: twitter:creator
+            widget: string
+            required: false
+          - label: Additional HTML tags
+            name: additional_tags
+            widget: text
+            required: false
+  - name: projets
+    label: Projets
+    folder: cms/projets
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Introduction (rich text)
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_description-rich-text
+        label: Description (rich text)
+        widget: markdown
+        required: false
+      - hint: 'format: jpg /  size max: 150 ko /'
+        name: f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko
+        label: Thumbnail
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: >-
+          images @ 1920 x 1080 px (4:3 or 3:4 ratio) | JPG | ideal size max 250
+          Ko
+        name: f_images-du-projets
+        label: Images du projets
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_collaboration
+        label: Collaboration
+        widget: string
+        required: false
+      - hint: ''
+        name: f_location
+        label: Lieu
+        widget: string
+        required: false
+      - hint: ''
+        name: f_date
+        label: Date
+        widget: string
+        required: false
+      - hint: ''
+        name: f_client
+        label: Client
+        widget: string
+        required: false
+      - hint: Le projet est-t-il en sélection / highlight ?
+        name: f_selection
+        label: Sélection ?
+        widget: boolean
+        required: false
+        default: false
+      - hint: L'orde à partir duquel les projets sont listés
+        name: f_order
+        label: Order
+        widget: number
+        required: false
+      - hint: max 3 related projects
+        name: f_related-projects-2
+        label: Related projects
+        widget: relation
+        required: false
+        collection: projets
+        value_field: cms/projets/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: true
+      - hint: ''
+        name: f_categories
+        label: Categories
+        widget: relation
+        required: false
+        collection: categories
+        value_field: cms/categories/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: true
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: projets
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[projets].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: highlight
+    label: Highlights
+    folder: cms/highlight
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: >-
+          IMPORTANT: même titre que pour le titre du projet de la collection
+          list "Projets"
+        name: title
+        label: Titre du projet
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: Ne pas changer
+        name: f_projet-a-b
+        label: Projet — a/b
+        widget: string
+        required: false
+      - hint: Ne pas changer
+        name: f_nummero
+        label: Numméro
+        widget: string
+        required: false
+      - hint: Sélectionner le même projet en relation avec le projet en highlight
+        name: f_link-to-project-page
+        label: Lien vers la page du projet
+        widget: relation
+        required: false
+        collection: projets
+        value_field: cms/projets/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: Choisir une seule catégorie
+        name: f_categorie
+        label: Catégorie
+        widget: relation
+        required: false
+        collection: categories
+        value_field: cms/categories/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: Couleur du background en dessous de l'image du projet
+        name: f_couleur
+        label: Couleur de la partie droite
+        widget: color
+        required: true
+        enableAlpha: true
+        allowInput: true
+      - hint: (blanc si background fonçé, noir si background clair)
+        name: f_couleur-de-la-fleche-d-ouverture-de-projet
+        label: Couleur de la flèche d'ouverture de projet
+        widget: color
+        required: false
+        enableAlpha: true
+        allowInput: true
+      - hint: Image ratio 1:1 soit carré, idéalement au format SVG
+        name: f_dessin-technique-image-principale
+        label: Dessin technique (image principale)
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: >-
+          Image ratio 1:1 soit carré, idéalement au format JPG optimisé pour le
+          web
+        name: f_photo-phare-du-projet-image-secondaire
+        label: Photo phare du projet (image secondaire)
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: Si animation SVG il y a (optionel)
+        name: f_svg-animated-overlay-optional
+        label: SVG animated overlay (optionel)
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: highlight
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[highlight].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: categories
+    label: Categories
+    folder: cms/categories
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: Couleur de la catégorie
+        name: f_couleur
+        label: Couleur
+        widget: color
+        required: false
+        enableAlpha: true
+        allowInput: true
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: categories
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[categories].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: mention_legale
+    label: Mention légales
+    folder: cms/mention-legale
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Texte
+        name: body
+        widget: markdown
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: mention-legale
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[mention-legale].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - label: Theme Settings
+    name: settings
+    identifier_field: title
+    extension: json
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    files:
+      - label: General
+        name: site
+        file: cms/_data/settings/site.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: General
+          - hint: Full domain url (needed for a correct sitemap file)
+            name: domain
+            label: Domain
+            widget: string
+            required: false
+          - name: favicon
+            label: Favicon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: apple_touch_icon
+            label: Apple Touch Icon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: header_additional_content
+            label: Additional Content Header
+            hint: Content here will be placed before </head> tag
+            widget: text
+            required: false
+          - name: footer_additional_content
+            label: Additional Content Footer
+            hint: Content here will be placed before </body> tag
+            widget: text
+            required: false
+          - name: images_optimization
+            label: Images Optimization
+            widget: object
+            collapsed: false
+            fields:
+              - label: Image Formats
+                name: formats
+                widget: select
+                multiple: true
+                options:
+                  - label: Avif
+                    value: avif
+                  - label: Webp
+                    value: webp
+              - label: Image Dimensions
+                name: dimensions
+                widget: select
+                multiple: true
+                options:
+                  - label: '500'
+                    value: 500
+                  - label: '800'
+                    value: 800
+                  - label: '1080'
+                    value: 1080
+                  - label: '1600'
+                    value: 1600
+                  - label: '2000'
+                    value: 2000
+                  - label: '2600'
+                    value: 2600
+      - label: Colors
+        name: colors
+        file: cms/_data/colors.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Colors
+      - label: Texts
+        name: texts
+        file: cms/_data/texts.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Texts
+          - hint: 'Original text: En cliquant sur , key: -5767796a'
+            label: Text
+            name: '-5767796a'
+            widget: string
+          - hint: 'Original text: "Accepter", key: 6af87d0b'
+            label: Text
+            name: 6af87d0b
+            widget: string
+          - hint: >-
+              Original text: , vous acceptez que tous les cookies soient stockés
+              sur votre appareil afin d'améliorer la navigation sur le site et
+              d'analyser l'utilisation du site. Consultez notre , key: -1eb4ce39
+            label: Text
+            name: '-1eb4ce39'
+            widget: text
+          - hint: 'Original text: politique de confidentialité, key: 6ad7d527'
+            label: Text
+            name: 6ad7d527
+            widget: string
+          - hint: 'Original text:  pour plus d''informations., key: 1442d302'
+            label: Text
+            name: 1442d302
+            widget: string
+          - hint: 'Original text: Préférences, key: -6bfbaf20'
+            label: Text
+            name: '-6bfbaf20'
+            widget: string
+          - hint: 'Original text: Refuser, key: -5c134542'
+            label: Text
+            name: '-5c134542'
+            widget: string
+          - hint: 'Original text: Accepter, key: -7c16fc2b'
+            label: Text
+            name: '-7c16fc2b'
+            widget: string
+          - hint: >-
+              Original text: Centre de préférences pour la politique de
+              protection de la vie privée, key: 2dc7a23e
+            label: Text
+            name: 2dc7a23e
+            widget: string
+          - hint: >-
+              Original text: Lorsque vous visitez des sites web, ceux-ci peuvent
+              stocker ou récupérer des données dans votre navigateur. Ce
+              stockage est souvent nécessaire pour la fonctionnalité de base du
+              site web. Il peut être utilisé à des fins de marketing, d'analyse
+              et de personnalisation du site, par exemple pour enregistrer vos
+              préférences. La protection de la vie privée est importante pour
+              nous, c'est pourquoi vous avez la possibilité de désactiver
+              certains types de stockage qui ne sont pas nécessaires au
+              fonctionnement de base du site web. Le blocage de certaines
+              catégories peut avoir un impact sur votre expérience du site web.,
+              key: 5719b980
+            label: Text
+            name: 5719b980
+            widget: text
+          - hint: 'Original text: Rejeter tous les cookies, key: -1bb35ed1'
+            label: Text
+            name: '-1bb35ed1'
+            widget: string
+          - hint: 'Original text: Accepter tous les cookies, key: -79c29fd3'
+            label: Text
+            name: '-79c29fd3'
+            widget: string
+          - hint: >-
+              Original text: Gérer les préférences en matière de consentement
+              par catégorie, key: 351868e0
+            label: Text
+            name: '351868e0'
+            widget: string
+          - hint: 'Original text: Essentiel, key: 16a393aa'
+            label: Text
+            name: 16a393aa
+            widget: string
+          - hint: 'Original text: Toujours actif, key: -5c954f1a'
+            label: Text
+            name: '-5c954f1a'
+            widget: string
+          - hint: >-
+              Original text: Ces éléments sont nécessaires pour permettre le
+              fonctionnement de base du site web., key: -7b9165df
+            label: Text
+            name: '-7b9165df'
+            widget: string
+          - hint: 'Original text: Marketing, key: 3fc9ea06'
+            label: Text
+            name: 3fc9ea06
+            widget: string
+          - hint: 'Original text: Essential, key: 16a3932e'
+            label: Text
+            name: 16a3932e
+            widget: string
+          - hint: >-
+              Original text: Ces éléments sont utilisés pour diffuser des
+              publicités plus pertinentes pour vous et vos centres d'intérêt.
+              Ils peuvent également être utilisés pour limiter le nombre de fois
+              que vous voyez une publicité et mesurer l'efficacité des campagnes
+              publicitaires. Les réseaux publicitaires les placent généralement
+              avec l'autorisation de l'exploitant du site web., key: -7979fb1e
+            label: Text
+            name: '-7979fb1e'
+            widget: text
+          - hint: 'Original text: Personnalisation, key: 6fc5ea07'
+            label: Text
+            name: 6fc5ea07
+            widget: string
+          - hint: >-
+              Original text: Ces éléments permettent au site web de se souvenir
+              des choix que vous faites (tels que votre nom d'utilisateur, votre
+              langue ou la région dans laquelle vous vous trouvez) et de fournir
+              des fonctions améliorées et plus personnelles. Par exemple, un
+              site web peut vous fournir des bulletins météorologiques locaux ou
+              des informations sur la circulation en stockant des données sur
+              votre position actuelle., key: -1d143c52
+            label: Text
+            name: '-1d143c52'
+            widget: text
+          - hint: 'Original text: Analyse, key: 2fb3f453'
+            label: Text
+            name: 2fb3f453
+            widget: string
+          - hint: >-
+              Original text: Ces éléments aident l'opérateur du site web à
+              comprendre comment son site fonctionne, comment les visiteurs
+              interagissent avec le site et s'il y a des problèmes techniques.
+              Ce type de stockage ne recueille généralement pas d'informations
+              permettant d'identifier un visiteur., key: -46635a4
+            label: Text
+            name: '-46635a4'
+            widget: text
+          - hint: 'Original text: Confirmer mes préférences et fermer, key: -c5b78c0'
+            label: Text
+            name: '-c5b78c0'
+            widget: string
+          - hint: 'Original text: Projets, key: 50c8e507'
+            label: Text
+            name: 50c8e507
+            widget: string
+          - hint: 'Original text: Démarche, key: 7ce84fe7'
+            label: Text
+            name: 7ce84fe7
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: 'Original text: 4a+, key: cf1e'
+            label: Text
+            name: cf1e
+            widget: string
+          - hint: >-
+              Original text: Atelier d'architecture alpine actuelle — 4a+ est un
+              atelier sédunois dévoué à l’architecture contemporaine locale.,
+              key: 2d420dd1
+            label: Text
+            name: 2d420dd1
+            widget: text
+          - hint: 'Original text: Détails, key: -5eaec3e2'
+            label: Text
+            name: '-5eaec3e2'
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
+            widget: string
+          - hint: >-
+              Original text: Nous comprenons que chaque projet est différent et
+              que les exigences de chaque client sont uniques., key: -67c2f8dc
+            label: Text
+            name: '-67c2f8dc'
+            widget: text
+          - hint: 'Original text: prendre contact, key: -d505c74'
+            label: Text
+            name: '-d505c74'
+            widget: string
+          - hint: 'Original text: #1, key: 46e'
+            label: Text
+            name: 46e
+            widget: string
+          - hint: 'Original text: Étude de faisabilité, key: 26cf76b'
+            label: Text
+            name: 26cf76b
+            widget: string
+          - hint: >-
+              Original text: L'étude de faisabilité est la première étape de
+              chaque projet. Nous nous assurons que le potentiel d'un bâtiment
+              ou d'un site est viable, en tenant dûment compte des enjeux., key:
+              -22acd53c
+            label: Text
+            name: '-22acd53c'
+            widget: text
+          - hint: 'Original text: #2, key: 46f'
+            label: Text
+            name: 46f
+            widget: string
+          - hint: 'Original text: Conception détaillée, key: -1ca23c4d'
+            label: Text
+            name: '-1ca23c4d'
+            widget: string
+          - hint: >-
+              Original text: À ce stade du projet, nous comprenons clairement le
+              cahier des charges et les exigences en matière de conception. Nous
+              commençons à mettre en œuvre ces considérations dans une
+              conception finale., key: 2215b766
+            label: Text
+            name: 2215b766
+            widget: text
+          - hint: 'Original text: #3, key: 470'
+            label: Text
+            name: '470'
+            widget: string
+          - hint: 'Original text: Construction, key: -6d2c9b0f'
+            label: Text
+            name: '-6d2c9b0f'
+            widget: string
+          - hint: >-
+              Original text: Une fois l'entrepreneur sélectionné et le contrat
+              de construction signé, le projet entre dans une nouvelle phase,
+              celle de la "pose de la première pierre" et du début des travaux
+              de construction., key: -53bcff41
+            label: Text
+            name: '-53bcff41'
+            widget: text
+          - hint: 'Original text: #4, key: 471'
+            label: Text
+            name: '471'
+            widget: string
+          - hint: 'Original text: Suivi des travaux, key: -1e7a7f63'
+            label: Text
+            name: '-1e7a7f63'
+            widget: string
+          - hint: >-
+              Original text: Cet engagement en faveur d'une collaboration
+              permanente garantit que nos solutions architecturales
+              correspondent parfaitement à la vision et aux besoins de nos
+              clients., key: 36e4d676
+            label: Text
+            name: 36e4d676
+            widget: text
+          - hint: >-
+              Original text: Atelier d'architecture alpine actuelle — 4a+, key:
+              -714ca3ec
+            label: Text
+            name: '-714ca3ec'
+            widget: string
+          - hint: >-
+              Original text: Bureau sédunois dévoué à l’architecture
+              contemporaine locale., key: 414d4b2
+            label: Text
+            name: 414d4b2
+            widget: string
+          - hint: 'Original text: Janvier 2017, key: 31aef24d'
+            label: Text
+            name: 31aef24d
+            widget: string
+          - hint: >-
+              Original text: Camil Amos, architecte MA HES créé son propre
+              bureau d'architecture au cœur même de la ville de Sion, en Valais.
+              , key: -226fbf1e
+            label: Text
+            name: '-226fbf1e'
+            widget: text
+          - hint: >-
+              Original text: Avec une profonde appréciation du caractère unique
+              de la région et un engagement pour un design innovant et viable,
+              les créations architecturales de 4a+ mélangent harmonieusement
+              l'esthétique contemporaine avec le riche héritage de la région.,
+              key: -3fa85b28
+            label: Text
+            name: '-3fa85b28'
+            widget: text
+          - hint: >-
+              Original text: L'architecture, c'est plus que des briques et du
+              mortier, c'est une forme d'art qui allie fonctionnalité et
+              beauté., key: 113a142b
+            label: Text
+            name: 113a142b
+            widget: text
+          - hint: >-
+              Original text: Camil Amos, Architecte MA HES — Atelier
+              d'architecture alpine actuelle , key: -3c904a46
+            label: Text
+            name: '-3c904a46'
+            widget: string
+          - hint: 'Original text: Avril 2018, key: d0af465'
+            label: Text
+            name: d0af465
+            widget: string
+          - hint: 'Original text: News, key: 24fef3'
+            label: Text
+            name: 24fef3
+            widget: string
+          - hint: "Original text: Nouveau bureau \_🎉 pour l'Atelier d'architecture alpine actuelle — 4a+, key: -3e5800dd"
+            label: Text
+            name: '-3e5800dd'
+            widget: string
+          - hint: 'Original text: Lire d''avantage, key: -65867b00'
+            label: Text
+            name: '-65867b00'
+            widget: string
+          - hint: 'Original text: Juin 2021, key: -3a50a0b3'
+            label: Text
+            name: '-3a50a0b3'
+            widget: string
+          - hint: >-
+              Original text: La salle de spectacle de Chalais, vétuste, a été
+              rénovée pour répondre aux normes actuelles tout en préservant son
+              aspect iconique. Le projet fut mené et construit par les bénévoles
+              de la région., key: -507ef738
+            label: Text
+            name: '-507ef738'
+            widget: text
+          - hint: >-
+              Original text: La vénérable salle de théâtre du village de Chalais
+              était à bout de souffle. Sa structure et son équipement n'étaient
+              plus adéquat, et la société de développement Edelweiss-Loisirs
+              désirait un outil aux normes et standards actuels. En se basant
+              sur un premier agrandissement réalisé en 2001, la circulation, la
+              salle et les services ont été entièrement repensés. , key: 9bc4497
+            label: Text
+            name: 9bc4497
+            widget: text
+          - hint: 'Original text: Lire d''avantage sur le projet, key: -8318b9d'
+            label: Text
+            name: '-8318b9d'
+            widget: string
+          - hint: 'Original text: Novembre 2022, key: 26676546'
+            label: Text
+            name: '26676546'
+            widget: string
+          - hint: >-
+              Original text: Forts d'une expertise solide, nous veillions à
+              donner la priorité aux besoins de nos clients et à aller au cœur
+              de ce qui inspire leur idée de "chez sois"., key: -41a89f75
+            label: Text
+            name: '-41a89f75'
+            widget: text
+          - hint: 'Original text: Architecture, key: 3bd7bd73'
+            label: Text
+            name: 3bd7bd73
+            widget: string
+          - hint: 'Original text: Nom, key: 132ac'
+            label: Text
+            name: 132ac
+            widget: string
+          - hint: 'Original text: [ahr-ki-tek-cher], key: -4f1da9a'
+            label: Text
+            name: '-4f1da9a'
+            widget: string
+          - hint: >-
+              Original text: L'art et la science de la conception et de la
+              construction de bâtiments, de structures et d'espaces., key:
+              -3da1b09e
+            label: Text
+            name: '-3da1b09e'
+            widget: text
+          - hint: 'Original text: Aujourd''hui, key: -280f755d'
+            label: Text
+            name: '-280f755d'
+            widget: string
+          - hint: >-
+              Original text: Atelier d'architecture alpine actuelle — 4a+ est un
+              atelier sédunois dévoué à l’architecture contemporaine locale,
+              key: 3b4431fd
+            label: Text
+            name: 3b4431fd
+            widget: text
+          - hint: >-
+              Original text: Nous répondons volontiers à vos questions., key:
+              -338aaed1
+            label: Text
+            name: '-338aaed1'
+            widget: string
+          - hint: 'Original text: Prendre contact, key: -48bda494'
+            label: Text
+            name: '-48bda494'
+            widget: string
+          - hint: >-
+              Original text: Tâcher de faire face aux défis de l'architecture
+              contemporaine., key: -7da4fb61
+            label: Text
+            name: '-7da4fb61'
+            widget: string
+          - hint: 'Original text: Une idée ?, key: 2381cf2a'
+            label: Text
+            name: 2381cf2a
+            widget: string
+          - hint: 'Original text: Discutons-en., key: 650ffc38'
+            label: Text
+            name: 650ffc38
+            widget: string
+          - hint: 'Original text: Bureau, key: 7745f09a'
+            label: Text
+            name: 7745f09a
+            widget: string
+          - hint: >-
+              Original text: Atelier d'architecture alpine actuelle Sàrl, key:
+              40809ea5
+            label: Text
+            name: 40809ea5
+            widget: string
+          - hint: 'Original text: Place du midi 50, 1950 Sion, key: -77a6ffa6'
+            label: Text
+            name: '-77a6ffa6'
+            widget: string
+          - hint: 'Original text: SUISSE, key: -6d8d85a2'
+            label: Text
+            name: '-6d8d85a2'
+            widget: string
+          - hint: 'Original text: info@quatreaplus.ch, key: -273cacac'
+            label: Text
+            name: '-273cacac'
+            widget: string
+          - hint: 'Original text: +41 78 812 09 60, key: -2e56a39d'
+            label: Text
+            name: '-2e56a39d'
+            widget: string
+          - hint: 'Original text: quatreaplus.ch, key: -6196267e'
+            label: Text
+            name: '-6196267e'
+            widget: string
+          - hint: 'Original text: www.quatreaplus.ch, key: 7d6b62b9'
+            label: Text
+            name: 7d6b62b9
+            widget: string
+          - hint: 'Original text: Mention légal, key: 44a52ddf'
+            label: Text
+            name: 44a52ddf
+            widget: string
+          - hint: 'Original text: © 2023 quatresaplus.ch, key: 216dce97'
+            label: Text
+            name: 216dce97
+            widget: string
+          - hint: 'Original text: webdesign ❤️ , key: -199d6cb9'
+            label: Text
+            name: '-199d6cb9'
+            widget: string
+          - hint: 'Original text: anthonysalamin.ch, key: -67104443'
+            label: Text
+            name: '-67104443'
+            widget: string
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
+          - hint: 'Original text: Page Not Found, key: -40b0787c'
+            label: Text
+            name: '-40b0787c'
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for doesn't exist or has
+              been moved, key: 556d64d8
+            label: Text
+            name: 556d64d8
+            widget: string
+          - hint: 'Original text: Go Home, key: 6b29b517'
+            label: Text
+            name: 6b29b517
+            widget: string
+          - hint: 'Original text: scroll, key: -361a1933'
+            label: Text
+            name: '-361a1933'
+            widget: string
+          - hint: >-
+              Original text: Atelier d'architecture alpine actuelle — , key:
+              -124c7936
+            label: Text
+            name: '-124c7936'
+            widget: string
+          - hint: >-
+              Original text:  est un atelier sédunois dévoué à l’architecture
+              contemporaine locale, key: 65d68191
+            label: Text
+            name: 65d68191
+            widget: string
+          - hint: 'Original text: A — Z, key: 41af2ef'
+            label: Text
+            name: 41af2ef
+            widget: string
+          - hint: 'Original text: Sélection, key: -5eba4b98'
+            label: Text
+            name: '-5eba4b98'
+            widget: string
+          - hint: 'Original text: mixitup__featuring, key: -19af644f'
+            label: Text
+            name: '-19af644f'
+            widget: string
+          - hint: 'Original text: please scroll, key: -1c6b203d'
+            label: Text
+            name: '-1c6b203d'
+            widget: string
+          - hint: 'Original text: Projet, key: -7101c714'
+            label: Text
+            name: '-7101c714'
+            widget: string
+          - hint: 'Original text: Kabaret, key: 2a8c404c'
+            label: Text
+            name: 2a8c404c
+            widget: string
+          - hint: 'Original text: 01, key: 601'
+            label: Text
+            name: '601'
+            widget: string
+          - hint: 'Original text: Rénovation, key: -6cb2aee9'
+            label: Text
+            name: '-6cb2aee9'
+            widget: string
+          - hint: 'Original text: Voir, key: 28c5c2'
+            label: Text
+            name: 28c5c2
+            widget: string
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: /mention-legal/, key: -4c90d838'
+            label: Link
+            name: '-4c90d838'
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
+            widget: string
+          - hint: 'Original link: /projets/, key: -2f646e9'
+            label: Link
+            name: '-2f646e9'
+            widget: string
+          - hint: 'Original link: #demarche, key: 77b28b66'
+            label: Link
+            name: 77b28b66
+            widget: string
+          - hint: >-
+              Original link: mailto:info@quatreaplus.ch?subject=Contact, key:
+              -3bc1ed84
+            label: Link
+            name: '-3bc1ed84'
+            widget: string
+          - hint: >-
+              Original link: https://www.instagram.com/quatreaplus/, key:
+              -7bb229d2
+            label: Link
+            name: '-7bb229d2'
+            widget: string
+          - hint: >-
+              Original link: mailto:info@quatreaplus.ch?subject=Contacte, key:
+              -3c7bc297
+            label: Link
+            name: '-3c7bc297'
+            widget: string
+          - hint: 'Original link: tel:+41788120960, key: -3af4e98e'
+            label: Link
+            name: '-3af4e98e'
+            widget: string
+          - hint: 'Original link: http://anthonysalamin.ch, key: 634a37eb'
+            label: Link
+            name: 634a37eb
+            widget: string
+      - label: Images
+        name: images
+        file: cms/_data/images.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Images
+          - label: Image
+            name: 61ec3fa1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 313268c8
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7fe12735
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7b187c93'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-51f2a81b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-13175a7b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 256da43c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-532d197c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-43b74649'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2cf0e2ec'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1224987d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-e6a129b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2b1beb3c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 124edf00
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7f7e3343
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1232affe
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3029a6f6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 121680fc
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 301b8f75
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3e167b83'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 9492d6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+publish_mode: editorial_workflow
