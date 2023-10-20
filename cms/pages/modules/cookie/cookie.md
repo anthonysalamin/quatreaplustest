@@ -1,7 +1,7 @@
 ---
 title: 🟢 Cookie
-permalink: modules/{{ page.fileSlug }}/index.html
-layout: modules/cookie.html
+permalink: modules/cookie/{{ page.fileSlug }}/index.html
+layout: modules/cookie/cookie.html
 slug: cookie
 tags: pages
 seo:

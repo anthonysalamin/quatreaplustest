@@ -539,7 +539,6 @@ function getBackgroundColor(element) {
 }
 function injectCSS(quote) {
   const color = getBackgroundColor(quote)
-  console.log(color);
   const styleElement = document.createElement("style");
   styleElement.type = "text/css";
   const cssRules = `

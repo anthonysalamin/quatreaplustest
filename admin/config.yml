@@ -719,9 +719,9 @@ collections:
             label: Text
             name: '-67c2f8dc'
             widget: text
-          - hint: 'Original text: prendre contact, key: -d505c74'
+          - hint: 'Original text: Prendre contact, key: -48bda494'
             label: Text
-            name: '-d505c74'
+            name: '-48bda494'
             widget: string
           - hint: 'Original text: #1, key: 46e'
             label: Text
@@ -921,10 +921,6 @@ collections:
             label: Text
             name: '-338aaed1'
             widget: string
-          - hint: 'Original text: Prendre contact, key: -48bda494'
-            label: Text
-            name: '-48bda494'
-            widget: string
           - hint: >-
               Original text: Tâcher de faire face aux défis de l'architecture
               contemporaine., key: -7da4fb61
@@ -1064,6 +1060,10 @@ collections:
           - hint: 'Original text: Voir, key: 28c5c2'
             label: Text
             name: 28c5c2
+            widget: string
+          - hint: 'Original text: prendre contact, key: -d505c74'
+            label: Text
+            name: '-d505c74'
             widget: string
       - label: Links
         name: links

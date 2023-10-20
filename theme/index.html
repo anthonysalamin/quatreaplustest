@@ -400,7 +400,7 @@ margin: 0rem !important;
                           {%- assign categoriesOfHighlight = item.data.f_categorie | resolveReference -%}<div class="highlight__legend category">{{ categoriesOfHighlight.data.title }}</div>
                         </div>
                         {%- assign projetsOfHighlight = item.data.f_link-to-project-page | resolveReference -%}<a aria-label="projet" href="{{ projetsOfHighlight.url }}" class="highlight__wrap-images w-inline-block">
-                          <div id="w-node-_53c7eda2-ee89-6435-6fab-a5202a1d840c-d720d525" class="highlight__image primary"><img alt="{{ item.data.f_dessin-technique-image-principale.alt }}" loading="lazy" src="{{ item.data.f_dessin-technique-image-principale.url }}" class="img-drawing"><img alt="{{ item.data.f_svg-animated-overlay-optional.alt }}" loading="lazy" src="{{ item.data.f_svg-animated-overlay-optional.url }}" class="img-drawing overlay"></div>
+                          <div id="w-node-_53c7eda2-ee89-6435-6fab-a5202a1d840c-d720d525" class="highlight__image primary"><img alt="{{ item.data.f_dessin-technique-image-principale.alt }}" loading="lazy" src="{{ item.data.f_dessin-technique-image-principale.url }}" class="img-drawing">{%- if item.data.f_svg-animated-overlay-optional -%}<img alt="{{ item.data.f_svg-animated-overlay-optional.alt }}" loading="lazy" src="{{ item.data.f_svg-animated-overlay-optional.url }}" class="img-drawing overlay">{%- endif -%}</div>
                           <div id="w-node-_53c7eda2-ee89-6435-6fab-a5202a1d840d-d720d525" class="highlight__image secondary">
                             <div class="img__wrap-secondary">
                               <div class="img__secondary" style="background-image: url('{{item.data.f_photo-phare-du-projet-image-secondaire.url}}');"></div>
@@ -438,7 +438,7 @@ margin: 0rem !important;
                 </div>
                 <div id="w-node-_77cfda53-1de3-18bf-b016-3e5a4bf82757-d720d525" class="process_button-row">
                   <a data-w-id="77cfda53-1de3-18bf-b016-3e5a4bf82758" href="{{ links.-3bc1ed84 }}" class="button is-icon is-small w-inline-block"><img src="{{ images.-51f2a81b.url }}" loading="lazy" style="-webkit-transform:translate3d(0rem, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0rem, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0rem, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0rem, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="{{ images.-51f2a81b.alt | trim | escape }}" class="arrow_90">
-                    <div class="button_text">{{ texts.-d505c74 }}</div>
+                    <div class="button_text">{{ texts.-48bda494 }}</div>
                   </a>
                 </div>
               </div>
@@ -770,7 +770,6 @@ function getBackgroundColor(element) {
 }
 function injectCSS(quote) {
   const color = getBackgroundColor(quote)
-  console.log(color);
   const styleElement = document.createElement("style");
   styleElement.type = "text/css";
   const cssRules = `
