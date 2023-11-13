@@ -5,17 +5,14 @@ f_description-rich-text: >-
   permet de créer une double enveloppe et de ne pas changer l'image de cette
   bâtisse. L'intérieur est entièrement recrée, en utilisant au maximum des
   matériaux naturels et des éléments de récupération.
-
-
-  ‍
 slug: les-combes
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
     https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e136368425b9e3aa5f1_64ae8232fd7e81e18cc38958_les-combes-thumb.jpeg
   alt: null
-updated-on: '2023-10-20T07:29:18.221Z'
+updated-on: '2023-10-20T13:13:44.199Z'
 created-on: '2023-10-12T05:03:15.698Z'
-published-on: '2023-10-20T07:29:46.791Z'
+published-on: '2023-10-20T13:15:44.670Z'
 f_selection: false
 f_images-du-projets:
   - url: >-
@@ -50,12 +47,11 @@ f_categories:
   - cms/categories/construction.md
 f_client: Privé
 f_collaboration: 4a+
-f_date: 2021 — 2022‍
+f_date: 2021 à 2022‍
 f_location: Ollon, Vaud
+f_live: false
 layout: '[projets].html'
 tags: projets
 ---
 
 **Les Combes** — Transformation d'une grange protégée en lieux de vie et de travail pour un couple d'apiculteur. L'état des madriers de la grange - et surtout les interstices entre ceux-ci - permet de créer une double enveloppe et de ne pas changer l'image de cette bâtisse.
-
-‍

@@ -6,9 +6,9 @@ f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
     https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e134045e2dceaf0d453_64ae88e4c9e27e1eff0da89f_placedumidi-thumbnail.jpeg
   alt: null
-updated-on: '2023-10-20T06:56:49.051Z'
+updated-on: '2023-11-06T08:55:58.926Z'
 created-on: '2023-10-12T05:03:15.398Z'
-published-on: '2023-10-20T07:02:05.990Z'
+published-on: '2023-11-06T08:59:34.281Z'
 f_selection: false
 f_images-du-projets:
   - url: >-
@@ -18,10 +18,25 @@ f_images-du-projets:
       https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527816694b27036c47d3629_64ae88b4cea154deb714da94_placedumidi_plan.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781662d2a8429f8d291e4_64b1133d635cb0e2d0dcfc86_placedumidi_2.jpg
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa19accc5211a1ed3d0b_place-du-midi-01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65278165cade388909373b1a_64b113193fe6ab404e33e006_placedumidi_3.jpg
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa19812534a5565f590d_place-du-midi-02.jpg
+    alt: null
+  - url: >-
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa1929d7c8ad6c73a509_place-du-midi-03.jpg
+    alt: null
+  - url: >-
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa198aeb5de0a6dba1cf_place-du-midi-04.jpg
+    alt: null
+  - url: >-
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa192e324d51c9c6cf3b_place-du-midi-05.jpg
+    alt: null
+  - url: >-
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa19267ff6e09102d582_place-du-midi-06.jpg
+    alt: null
+  - url: >-
+      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548aa192d3171cc4792dba8_place-du-midi-07.jpg
     alt: null
 f_order: 8
 f_related-projects-2:
@@ -33,6 +48,7 @@ f_client: La Bergerie
 f_collaboration: Spektrum, Travelise‍
 f_date: '2022'
 f_location: Sion, Valais
+f_live: false
 layout: '[projets].html'
 tags: projets
 ---

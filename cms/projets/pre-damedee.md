@@ -69,6 +69,7 @@ f_client: N/A
 f_collaboration: 4a+
 f_date: '2022'
 f_location: Sion, Valais
+f_live: false
 layout: '[projets].html'
 tags: projets
 ---

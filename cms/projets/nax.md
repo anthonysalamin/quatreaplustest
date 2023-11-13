@@ -5,23 +5,14 @@ f_description-rich-text: >-
   jours en toute saison seul comme en famille. La transformation s'est
   concentrée sur l'intérieur en recréant des espaces plus grand et plus ouvert,
   adaptés aux températures de montagne et au confort actuel.
-
-
-  ### ‍
-
-
-  ‍
-
-
-  ‍
 slug: nax
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
     https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e1319666fe579434891_613b2964eb2ba089a14a46d5_nax-thumb.jpeg
   alt: null
-updated-on: '2023-10-20T07:29:29.733Z'
+updated-on: '2023-10-20T13:44:01.929Z'
 created-on: '2023-10-12T05:03:15.576Z'
-published-on: '2023-10-20T07:29:46.791Z'
+published-on: '2023-10-20T13:44:07.769Z'
 f_selection: true
 f_images-du-projets:
   - url: >-
@@ -54,14 +45,11 @@ f_categories:
   - cms/categories/construction.md
 f_client: Privé
 f_collaboration: 4a+
-f_date: 2017 — 2018
+f_date: 2017 à 2018
 f_location: Nax, Valais
+f_live: false
 layout: '[projets].html'
 tags: projets
 ---
 
 **Nax** — Transformation d'un mayen en pied-à-terre permettant d'y séjourner quelques jours en toute saison seul comme en famille.
-
-‍
-
-‍

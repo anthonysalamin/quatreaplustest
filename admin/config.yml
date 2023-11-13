@@ -112,6 +112,14 @@ collections:
         name: body
         widget: markdown
         required: false
+      - hint: >-
+          Le projet n'est pas encore prêt à être affiché sur la page projets ?
+          Si tel est le cas, activer le switch.
+        name: f_live
+        label: Offline ?
+        widget: boolean
+        required: false
+        default: false
       - hint: ''
         name: f_description-rich-text
         label: Description (rich text)
@@ -173,7 +181,7 @@ collections:
         label: Client
         widget: string
         required: false
-      - hint: Le projet est-t-il en sélection / highlight ?
+      - hint: Le projet est-t-il en sélection dans le module de filtre ?
         name: f_selection
         label: Sélection ?
         widget: boolean
@@ -184,9 +192,9 @@ collections:
         label: Order
         widget: number
         required: false
-      - hint: max 3 related projects
+      - hint: Max 3 projets similaires
         name: f_related-projects-2
-        label: Related projects
+        label: Projets similaires
         widget: relation
         required: false
         collection: projets
@@ -794,30 +802,32 @@ collections:
             name: '-714ca3ec'
             widget: string
           - hint: >-
-              Original text: Bureau sédunois dévoué à l’architecture
-              contemporaine locale., key: 414d4b2
+              Original text: Quatre A pour atelier d’architecture alpine
+              actuelle, parce qu’on se doit de construire avec les
+              connaissances, les capacités et les sensibilités d’aujourd’hui
+              tout en se rappelant qu’à Sion, Zermatt ou Lausanne, nous sommes
+              directement impactés par les Alpes., key: 2de97ac1
             label: Text
-            name: 414d4b2
-            widget: string
-          - hint: 'Original text: Janvier 2017, key: 31aef24d'
-            label: Text
-            name: 31aef24d
-            widget: string
-          - hint: >-
-              Original text: Camil Amos, architecte MA HES créé son propre
-              bureau d'architecture au cœur même de la ville de Sion, en Valais.
-              , key: -226fbf1e
-            label: Text
-            name: '-226fbf1e'
+            name: 2de97ac1
             widget: text
-          - hint: >-
-              Original text: Avec une profonde appréciation du caractère unique
-              de la région et un engagement pour un design innovant et viable,
-              les créations architecturales de 4a+ mélangent harmonieusement
-              l'esthétique contemporaine avec le riche héritage de la région.,
-              key: -3fa85b28
+          - hint: 'Original text: Vision, key: -6741b7f8'
             label: Text
-            name: '-3fa85b28'
+            name: '-6741b7f8'
+            widget: string
+          - hint: >-
+              Original text: Optimiser les ressources par la rénovation et
+              équilibrer l'ancien avec le nouveau., key: -41715a8c
+            label: Text
+            name: '-41715a8c'
+            widget: string
+          - hint: >-
+              Original text: Nous travaillons en équipe pour mettre en commun
+              les forces et les idées et pour pouvoir utiliser au mieux
+              l’existant. La rénovation et la recherche d’équilibre entre le
+              neuf et l’ancien est un sujet central dans notre démarche., key:
+              -4785ab40
+            label: Text
+            name: '-4785ab40'
             widget: text
           - hint: >-
               Original text: L'architecture, c'est plus que des briques et du
@@ -826,83 +836,107 @@ collections:
             label: Text
             name: 113a142b
             widget: text
+          - hint: 'Original text: Camil Amos, Architecte MA HES, key: 4ffa9028'
+            label: Text
+            name: 4ffa9028
+            widget: string
+          - hint: 'Original text: Méthode, key: 7d6c9580'
+            label: Text
+            name: 7d6c9580
+            widget: string
           - hint: >-
-              Original text: Camil Amos, Architecte MA HES — Atelier
-              d'architecture alpine actuelle , key: -3c904a46
+              Original text: Conception durable : Priorité à la simplicité, aux
+              matériaux naturels et au recyclage en collaboration avec des
+              spécialistes et des artisans, key: 4f044a15
             label: Text
-            name: '-3c904a46'
-            widget: string
-          - hint: 'Original text: Avril 2018, key: d0af465'
+            name: 4f044a15
+            widget: text
+          - hint: >-
+              Original text: Nous cherchons à utiliser des procédés simples, des
+              matières naturelles et à (ré)utiliser le plus possible des
+              matériaux et des appareils de récupération. La discussion avec les
+              spécialistes et les artisans devient donc une partie importante de
+              la conception des projets. L’atelier participe à l’ensemble du
+              processus de construction, depuis l’étude de faisabilité jusqu'à
+              la mise en service, en passant bien sûr par les demandes
+              administratives. Nous suivons également les travaux dans leurs
+              ensembles., key: 26672428
             label: Text
-            name: d0af465
-            widget: string
-          - hint: 'Original text: News, key: 24fef3'
+            name: '26672428'
+            widget: text
+          - hint: 'Original text: Parcours, key: 49ca41a9'
             label: Text
-            name: 24fef3
+            name: 49ca41a9
             widget: string
-          - hint: "Original text: Nouveau bureau \_🎉 pour l'Atelier d'architecture alpine actuelle — 4a+, key: -3e5800dd"
+          - hint: 'Original text: 2016, key: 1774e3'
             label: Text
-            name: '-3e5800dd'
+            name: '1774e3'
             widget: string
+          - hint: >-
+              Original text: En parallèle à mon travail, je conduis les travaux
+              de rénovation de la salle de théâtre du Kabaret à Chalais, key:
+              542e329c
+            label: Text
+            name: 542e329c
+            widget: text
           - hint: 'Original text: Lire d''avantage, key: -65867b00'
             label: Text
             name: '-65867b00'
             widget: string
-          - hint: 'Original text: Juin 2021, key: -3a50a0b3'
+          - hint: 'Original text: 2021, key: 1774fd'
             label: Text
-            name: '-3a50a0b3'
+            name: 1774fd
             widget: string
           - hint: >-
-              Original text: La salle de spectacle de Chalais, vétuste, a été
-              rénovée pour répondre aux normes actuelles tout en préservant son
-              aspect iconique. Le projet fut mené et construit par les bénévoles
-              de la région., key: -507ef738
+              Original text: Après l’obtention de mon master en architecture à
+              la HES à Bâle et après avoir travaillé plusieurs années en suisse
+              allemande, je suis retourné en Valais pour créer l’atelier 4a+,
+              key: 4eb96006
             label: Text
-            name: '-507ef738'
+            name: 4eb96006
             widget: text
-          - hint: >-
-              Original text: La vénérable salle de théâtre du village de Chalais
-              était à bout de souffle. Sa structure et son équipement n'étaient
-              plus adéquat, et la société de développement Edelweiss-Loisirs
-              désirait un outil aux normes et standards actuels. En se basant
-              sur un premier agrandissement réalisé en 2001, la circulation, la
-              salle et les services ont été entièrement repensés. , key: 9bc4497
+          - hint: 'Original text: Nouvel espace, key: 49fb0f58'
             label: Text
-            name: 9bc4497
-            widget: text
-          - hint: 'Original text: Lire d''avantage sur le projet, key: -8318b9d'
-            label: Text
-            name: '-8318b9d'
+            name: 49fb0f58
             widget: string
-          - hint: 'Original text: Novembre 2022, key: 26676546'
+          - hint: 'Original text: 2022 🚀, key: -562cf7bb'
             label: Text
-            name: '26676546'
+            name: '-562cf7bb'
             widget: string
           - hint: >-
-              Original text: Forts d'une expertise solide, nous veillions à
-              donner la priorité aux besoins de nos clients et à aller au cœur
-              de ce qui inspire leur idée de "chez sois"., key: -41a89f75
+              Original text: Transformations des bureaux de la Place du Midi. Un
+              nouveau lieu qui permet à l’atelier de s’agrandir et de
+              s’installer avec quatre autres entreprises., key: 3ace1d1d
             label: Text
-            name: '-41a89f75'
+            name: 3ace1d1d
             widget: text
-          - hint: 'Original text: Architecture, key: 3bd7bd73'
+          - hint: >-
+              Original text: Cette expansion offre également une perspective
+              passionnante de renforcement des synergies et des échanges
+              créatifs entre notre équipe et les diverses entreprises installées
+              dans cet espace dynamique., key: 75d5240a
             label: Text
-            name: 3bd7bd73
+            name: 75d5240a
+            widget: text
+          - hint: 'Original text: Synergie, key: 704d4a4e'
+            label: Text
+            name: 704d4a4e
             widget: string
           - hint: 'Original text: Nom, key: 132ac'
             label: Text
             name: 132ac
             widget: string
-          - hint: 'Original text: [ahr-ki-tek-cher], key: -4f1da9a'
+          - hint: 'Original text: [/ˈsɪn.ə.dʒi/], key: -4742b97'
             label: Text
-            name: '-4f1da9a'
+            name: '-4742b97'
             widget: string
           - hint: >-
-              Original text: L'art et la science de la conception et de la
-              construction de bâtiments, de structures et d'espaces., key:
-              -3da1b09e
+              Original text: La synergie désigne l'action combinée ou
+              coopérative d'individus, d'éléments ou de groupes qui, lorsqu'ils
+              travaillent ensemble, produisent un résultat supérieur à la somme
+              de leurs efforts individuels., key: -7454e250
             label: Text
-            name: '-3da1b09e'
+            name: '-7454e250'
             widget: text
           - hint: 'Original text: Aujourd''hui, key: -280f755d'
             label: Text
@@ -1013,17 +1047,9 @@ collections:
             label: Text
             name: '-361a1933'
             widget: string
-          - hint: >-
-              Original text: Atelier d'architecture alpine actuelle — , key:
-              -124c7936
+          - hint: 'Original text: Projets similaires, key: -2a36a7c9'
             label: Text
-            name: '-124c7936'
-            widget: string
-          - hint: >-
-              Original text:  est un atelier sédunois dévoué à l’architecture
-              contemporaine locale, key: 65d68191
-            label: Text
-            name: 65d68191
+            name: '-2a36a7c9'
             widget: string
           - hint: 'Original text: A — Z, key: 41af2ef'
             label: Text
@@ -1100,16 +1126,20 @@ collections:
             name: '-3bc1ed84'
             widget: string
           - hint: >-
+              Original link: https://quatreaplus.ch/projets/le-kabaret, key:
+              29d126be
+            label: Link
+            name: 29d126be
+            widget: string
+          - hint: 'Original link: #footer, key: -10273082'
+            label: Link
+            name: '-10273082'
+            widget: string
+          - hint: >-
               Original link: https://www.instagram.com/quatreaplus/, key:
               -7bb229d2
             label: Link
             name: '-7bb229d2'
-            widget: string
-          - hint: >-
-              Original link: mailto:info@quatreaplus.ch?subject=Contacte, key:
-              -3c7bc297
-            label: Link
-            name: '-3c7bc297'
             widget: string
           - hint: 'Original link: tel:+41788120960, key: -3af4e98e'
             label: Link
@@ -1167,7 +1197,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7b187c93'
+            name: '-195946c6'
             widget: object
             fields:
               - name: url
@@ -1206,7 +1236,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 256da43c
+            name: '529e816'
             widget: object
             fields:
               - name: url
@@ -1232,7 +1262,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-43b74649'
+            name: 214e25e4
             widget: object
             fields:
               - name: url
@@ -1245,20 +1275,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2cf0e2ec'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 1224987d
+            name: '21400e63'
             widget: object
             fields:
               - name: url
@@ -1311,6 +1328,19 @@ collections:
                 required: false
           - label: Image
             name: 124edf00
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1224987d
             widget: object
             fields:
               - name: url

@@ -19,9 +19,9 @@ f_description-rich-text: >-
   considérablement amélioré son empreinte écologique et son autonomie en termes
   de production d’eau chaude et d’électricité.
 slug: st-catherine
-updated-on: '2023-10-20T06:51:14.466Z'
+updated-on: '2023-11-13T03:18:34.103Z'
 created-on: '2023-10-12T05:03:16.800Z'
-published-on: '2023-10-20T07:02:05.990Z'
+published-on: '2023-11-13T03:18:44.528Z'
 f_selection: false
 f_images-du-projets:
   - url: >-
@@ -49,6 +49,7 @@ f_client: Privés
 f_collaboration: Avant-projet de ATLB
 f_date: '2022'
 f_location: Sierre
+f_live: true
 layout: '[projets].html'
 tags: projets
 ---

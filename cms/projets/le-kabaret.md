@@ -17,9 +17,9 @@ f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
     https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e1353a3888fa6009c20_613b2a54cfaac7eeca26c4ab_kabaret-thumb.jpeg
   alt: null
-updated-on: '2023-10-20T07:49:00.860Z'
+updated-on: '2023-10-20T13:14:25.695Z'
 created-on: '2023-10-12T05:03:15.571Z'
-published-on: '2023-10-20T07:49:11.799Z'
+published-on: '2023-10-20T13:15:44.670Z'
 f_selection: true
 f_images-du-projets:
   - url: >-
@@ -64,8 +64,9 @@ f_categories:
   - cms/categories/renovation.md
 f_client: Société de Développement Edelweiss-Loisirs
 f_collaboration: Thomas Perruchoud, Pierre Amos, Fabio Sa, Jean Iwanowski, SDE
-f_date: 2016 — 2019
+f_date: 2016 à 2019
 f_location: Chalais, Valais
+f_live: false
 layout: '[projets].html'
 tags: projets
 ---

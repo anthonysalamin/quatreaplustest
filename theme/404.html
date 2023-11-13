@@ -71,19 +71,6 @@ textarea:focus {
   <script src="/assets/js/relaunch-quatreaplus.js" type="text/javascript"></script><!--  lenis smooth scroll  -->
   <script data-id-scroll="" data-autoinit="true" data-duration="1" data-orientation="vertical" data-smoothwheel="true" data-smoothtouch="false" data-touchmultiplier="1.5" data-easing="(t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t))" data-useoverscroll="true" data-usecontrols="true" data-useanchor="true" data-useraf="true" data-infinite="false" defer="" src="https://assets.website-files.com/645e0e1ff7fdb6dc8c85f3a2/64a5544a813c7253b90f2f50_lenis-offbrand.txt">
 </script>
-  <script>
-/*
- * open first FAQ onload
- " build 19.10.23 @20:09
-*/
-document.addEventListener("DOMContentLoaded", initFAQ);
-// open the first FAQ answer
-function initFAQ() {
-  const FAQs = document.querySelectorAll(`.process_question`);
-  if (FAQs.length === 0) return; // clause guard
-  FAQs[0].click();
-}
-</script>
   <!--  GSAP  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -95,10 +82,10 @@ function initFAQ() {
  * build 19.10.23 @20:07
  */
 document.addEventListener("DOMContentLoaded", () => {
-  const quote = document.querySelector("#section-quote");
+  const quote = document.querySelector("#quote");
   if (!quote) return;
   injectCSS(quote);
-  initQuoteGSAP();
+  setTimeout(initQuoteGSAP, 100);
 });
 function getBackgroundColor(element) {
   const computedStyle = window.getComputedStyle(element);
@@ -106,7 +93,8 @@ function getBackgroundColor(element) {
   return backgroundColor;
 }
 function injectCSS(quote) {
-  const color = getBackgroundColor(quote)
+  console.log("injectCSS(quote)");
+  const color = getBackgroundColor(quote);
   const styleElement = document.createElement("style");
   styleElement.type = "text/css";
   const cssRules = `
@@ -118,7 +106,7 @@ function injectCSS(quote) {
     top: 0;
     right: 0;
     background-color: ${color}; /* 👉🏻 same as section color */
-    opacity: 0.9;
+    opacity: 0.8;
     height: 120%;
     width: 100%;
     z-index: 2;
@@ -128,6 +116,7 @@ function injectCSS(quote) {
   document.head.appendChild(styleElement);
 }
 function initQuoteGSAP() {
+  console.log("initQuoteGSAP()");
   const elementsToSplit = document.querySelectorAll(".split-lines");
   const instancesOfSplit = [];
   // Split the text up
@@ -175,6 +164,19 @@ function initQuoteGSAP() {
   }
   createAnimation();
 } // end initQuoteGSAP()
+</script>
+  <script>
+/*
+ * open first FAQ onload
+ * build 19.10.23 @20:09
+*/
+document.addEventListener("DOMContentLoaded", initFAQ);
+// open the first FAQ answer
+function initFAQ() {
+  const FAQs = document.querySelectorAll(`.process_question`);
+  if (FAQs.length === 0) return; // clause guard
+  FAQs[0].click();
+}
 </script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

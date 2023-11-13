@@ -361,7 +361,7 @@ margin: 0rem !important;
               <div class="header_component">
                 <h1 class="hero-logomark">{{ texts.cf1e }}</h1>
                 <div id="w-node-a30e49aa-5f5d-aeb0-fc65-e53c0431fce5-d720d585" class="subtitle_content">
-                  <p class="text-size-medium">{{ texts.-124c7936 }}<strong>{{ texts.cf1e }}</strong>{{ texts.65d68191 }}</p>
+                  <p class="text-size-medium">{{ texts.2d420dd1 }}</p>
                   <div class="padding-bottom padding-small hide-tablet"></div>
                 </div>
               </div>
@@ -402,7 +402,7 @@ margin: 0rem !important;
                 </div>
               </div>
               <div id="status" class="status">{{ texts.50c8e507 }}</div>
-              {%- assign collection = collections.projets | sort: "f_order" -%}<div class="mixitup__collection-list-wrapper w-dyn-list">
+              {%- assign collection = collections.projets | filter: "f_live,ne,true", "ALL", page.inputPath | sort: "f_order" -%}<div class="mixitup__collection-list-wrapper w-dyn-list">
                 {%- unless collection.length == 0 -%}<div id="mixitup-container" role="list" class="mixitup__collection-list w-dyn-items">
                   {%- for item in collection -%}<div role="listitem" class="mixitup__collection-item w-dyn-item">
                     <div class="mixitup__helpers">
@@ -438,7 +438,7 @@ margin: 0rem !important;
           </div>
         </div>
       </div>
-      <section id="section-quote" class="section quote">
+      <section id="quote" class="section quote">
         <div class="padding-global">
           <div class="container-large">
             <div class="padding-section-large">
@@ -450,7 +450,7 @@ margin: 0rem !important;
         </div>
       </section>
     </main>
-    <section class="section">
+    <section id="footer" class="section">
       <footer class="module_footer">
         <div class="padding-global">
           <div class="container-large">
@@ -472,12 +472,12 @@ margin: 0rem !important;
                   </div>
                   <div class="footer__grid-locations">
                     <div class="footer__location">
-                      <h4 class="footer__list-titile">{{ texts.7745f09a }}</h4>
-                      <p>{{ texts.40809ea5 }}<br>{{ texts.-77a6ffa6 }}<br>{{ texts.-6d8d85a2 }}</p>
+                      <h4 class="footer__list-title">{{ texts.7745f09a }}</h4>
+                      <p class="footer__info">{{ texts.40809ea5 }}<br>{{ texts.-77a6ffa6 }}<br>{{ texts.-6d8d85a2 }}</p>
                     </div>
                     <div id="w-node-ff730b9b-e26f-2b93-25e2-ff657184cd36-7184cd17" class="footer__location">
-                      <h4 class="footer__list-titile">{{ texts.-64104400 }}</h4>
-                      <p>{{ texts.-273cacac }}<br>{{ texts.-2e56a39d }}<br>{{ texts.-6196267e }}</p>
+                      <h4 class="footer__list-title">{{ texts.-64104400 }}</h4>
+                      <p class="footer__info">{{ texts.-273cacac }}<br>{{ texts.-2e56a39d }}<br>{{ texts.-6196267e }}</p>
                     </div>
                   </div>
                 </div>
@@ -497,7 +497,7 @@ margin: 0rem !important;
                             <path d="M322.44 0H124.02C55.52 0 0 55.52 0 124.02v198.43c0 68.49 55.52 124.02 124.02 124.02h198.43c68.49 0 124.02-55.52 124.02-124.02V124.02C446.46 55.52 390.93 0 322.44 0Zm80.61 322.44c-.14 44.46-36.15 80.47-80.61 80.61H124.02c-44.46-.14-80.47-36.15-80.61-80.61V124.02c.14-44.46 36.15-80.47 80.61-80.61h198.43c44.46.14 80.47 36.15 80.61 80.61v198.43Zm-62.01-192.22c13.7 0 24.8-11.1 24.8-24.8s-11.1-24.8-24.8-24.8-24.8 11.1-24.8 24.8 11.1 24.8 24.8 24.8Zm-117.81-18.6c-61.64 0-111.61 49.97-111.61 111.61s49.97 111.61 111.61 111.61 111.61-49.97 111.61-111.61c.07-29.62-11.67-58.05-32.62-79a111.38 111.38 0 0 0-79-32.62Zm-68.21 111.61c0 37.67 30.54 68.21 68.21 68.21s68.21-30.54 68.21-68.21-30.54-68.21-68.21-68.21-68.21 30.54-68.21 68.21Z" style="fill:#fff;fill-rule:evenodd"></path>
                           </svg></div>
                       </a>
-                      <a href="{{ links.-3c7bc297 }}" class="footer__soc-link w-inline-block">
+                      <a href="{{ links.-3bc1ed84 }}" class="footer__soc-link w-inline-block">
                         <div class="embed-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 666.67 666.67">
                             <path fill="white" d="M466.67 666.67H333.34c-44.98 0-88.64-8.82-129.76-26.21-39.7-16.79-75.34-40.82-105.94-71.42-30.6-30.6-54.63-66.25-71.42-105.94C8.82 421.98 0 378.32 0 333.33s8.82-88.64 26.21-129.76C43 163.87 67.03 128.23 97.63 97.63c30.6-30.6 66.25-54.63 105.94-71.42C244.69 8.82 288.35 0 333.33 0s88.64 8.82 129.76 26.21c39.7 16.79 75.34 40.82 105.94 71.42 30.6 30.6 54.63 66.25 71.42 105.94 17.39 41.12 26.21 84.77 26.21 129.76v50c0 64.33-52.34 116.67-116.67 116.67-40.1 0-75.54-20.34-96.55-51.24C423.09 480.33 380.46 500 333.32 500c-91.9 0-166.67-74.77-166.67-166.67s74.77-166.67 166.67-166.67 166.67 74.77 166.67 166.67v50c0 27.57 22.43 50 50 50s50-22.43 50-50v-50c0-147.04-119.63-266.67-266.67-266.67S66.67 186.29 66.67 333.33 186.3 600 333.34 600h133.33c18.41 0 33.33 14.92 33.33 33.33s-14.92 33.33-33.33 33.33ZM333.34 233.34c-55.14 0-100 44.86-100 100s44.86 100 100 100 100-44.86 100-100-44.86-100-100-100Z"></path>
                           </svg></div>
@@ -526,19 +526,6 @@ margin: 0rem !important;
   <script src="/assets/js/relaunch-quatreaplus.js" type="text/javascript"></script><!--  lenis smooth scroll  -->
   <script data-id-scroll="" data-autoinit="true" data-duration="1" data-orientation="vertical" data-smoothwheel="true" data-smoothtouch="false" data-touchmultiplier="1.5" data-easing="(t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t))" data-useoverscroll="true" data-usecontrols="true" data-useanchor="true" data-useraf="true" data-infinite="false" defer="" src="https://assets.website-files.com/645e0e1ff7fdb6dc8c85f3a2/64a5544a813c7253b90f2f50_lenis-offbrand.txt">
 </script>
-  <script>
-/*
- * open first FAQ onload
- " build 19.10.23 @20:09
-*/
-document.addEventListener("DOMContentLoaded", initFAQ);
-// open the first FAQ answer
-function initFAQ() {
-  const FAQs = document.querySelectorAll(`.process_question`);
-  if (FAQs.length === 0) return; // clause guard
-  FAQs[0].click();
-}
-</script>
   <!--  GSAP  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -550,10 +537,10 @@ function initFAQ() {
  * build 19.10.23 @20:07
  */
 document.addEventListener("DOMContentLoaded", () => {
-  const quote = document.querySelector("#section-quote");
+  const quote = document.querySelector("#quote");
   if (!quote) return;
   injectCSS(quote);
-  initQuoteGSAP();
+  setTimeout(initQuoteGSAP, 100);
 });
 function getBackgroundColor(element) {
   const computedStyle = window.getComputedStyle(element);
@@ -561,7 +548,8 @@ function getBackgroundColor(element) {
   return backgroundColor;
 }
 function injectCSS(quote) {
-  const color = getBackgroundColor(quote)
+  console.log("injectCSS(quote)");
+  const color = getBackgroundColor(quote);
   const styleElement = document.createElement("style");
   styleElement.type = "text/css";
   const cssRules = `
@@ -573,7 +561,7 @@ function injectCSS(quote) {
     top: 0;
     right: 0;
     background-color: ${color}; /* 👉🏻 same as section color */
-    opacity: 0.9;
+    opacity: 0.8;
     height: 120%;
     width: 100%;
     z-index: 2;
@@ -583,6 +571,7 @@ function injectCSS(quote) {
   document.head.appendChild(styleElement);
 }
 function initQuoteGSAP() {
+  console.log("initQuoteGSAP()");
   const elementsToSplit = document.querySelectorAll(".split-lines");
   const instancesOfSplit = [];
   // Split the text up
@@ -630,6 +619,19 @@ function initQuoteGSAP() {
   }
   createAnimation();
 } // end initQuoteGSAP()
+</script>
+  <script>
+/*
+ * open first FAQ onload
+ * build 19.10.23 @20:09
+*/
+document.addEventListener("DOMContentLoaded", initFAQ);
+// open the first FAQ answer
+function initFAQ() {
+  const FAQs = document.querySelectorAll(`.process_question`);
+  if (FAQs.length === 0) return; // clause guard
+  FAQs[0].click();
+}
 </script><!--  MixItUp 3 library v3.3.1  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <script>
