@@ -17,46 +17,46 @@ f_description-rich-text: >-
   aux salles d'eau, chacune a son propre style et mobilier coloré, créant ainsi
   des univers distincts et personnalisés.
 slug: vieux-college
-updated-on: '2023-11-06T08:55:29.469Z'
+updated-on: '2023-11-13T04:45:14.779Z'
 created-on: '2023-10-12T05:03:16.662Z'
-published-on: '2023-11-06T08:59:34.281Z'
+published-on: '2023-11-13T04:46:21.595Z'
 f_selection: false
 f_images-du-projets:
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a982d3cd541f9212d6c0_vieux-college-01.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6130_vieux-college-01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a98234bf1f999129dcc4_vieux-college-02.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612f_vieux-college-02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a9818b03acff7604e858_vieux-college-03.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612e_vieux-college-03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a9811db4259bcd432f79_vieux-college-04.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612b_vieux-college-04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a981267ff6e091025d5c_vieux-college-05.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612a_vieux-college-05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a981ee6132c2adea76a1_vieux-college-06.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6128_vieux-college-06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a98182745064618026a4_vieux-college-07.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612c_vieux-college-07.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a98190524ea02e8ed882_vieux-college-08.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6126_vieux-college-08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a982f79797112779324a_vieux-college-09.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6131_vieux-college-09.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a9810bd21a7cd5277236_vieux-college-10.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db612d_vieux-college-10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a981812534a5565eee01_vieux-college-11.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6129_vieux-college-11.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a9818aeb5de0a6db3fd7_vieux-college-12.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6127_vieux-college-12.jpg
     alt: null
 f_order: 10
 f_related-projects-2:
@@ -65,7 +65,7 @@ f_related-projects-2:
   - cms/projets/le-kabaret.md
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
-    https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6548a9fc8575f462b8f8a74f_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6132_thumbnail.jpg
   alt: null
 f_categories:
   - cms/categories/construction.md

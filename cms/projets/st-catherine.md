@@ -21,27 +21,27 @@ f_description-rich-text: >-
 slug: st-catherine
 updated-on: '2023-11-13T03:18:34.103Z'
 created-on: '2023-10-12T05:03:16.800Z'
-published-on: '2023-11-13T03:18:44.528Z'
+published-on: '2023-11-13T04:06:44.528Z'
 f_selection: false
 f_images-du-projets:
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527803b0f644d671d98a1f1_400x300.svg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db608b_400x300.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652780292d2a8429f8d10887_300x400.svg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db607b_300x400.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527803b0f644d671d98a1f1_400x300.svg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db608b_400x300.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652780292d2a8429f8d10887_300x400.svg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db607b_300x400.svg
     alt: null
 f_order: 5
 f_related-projects-2:
   - cms/projets/pre-damedee.md
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
-    https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652780292d2a8429f8d10887_300x400.svg
+    https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db607b_300x400.svg
   alt: null
 f_categories:
   - cms/categories/renovation.md

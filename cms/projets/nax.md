@@ -8,33 +8,33 @@ f_description-rich-text: >-
 slug: nax
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
-    https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e1319666fe579434891_613b2964eb2ba089a14a46d5_nax-thumb.jpeg
+    https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6000_613b2964eb2ba089a14a46d5_nax-thumb.jpeg
   alt: null
-updated-on: '2023-10-20T13:44:01.929Z'
+updated-on: '2023-11-13T04:45:46.014Z'
 created-on: '2023-10-12T05:03:15.576Z'
-published-on: '2023-10-20T13:44:07.769Z'
-f_selection: true
+published-on: '2023-11-13T04:46:21.595Z'
+f_selection: false
 f_images-du-projets:
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652782522237331bcc00bb3a_01-Nax_situationsplan-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6112_01-Nax_situationsplan-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652782512d2a8429f8d38a9f_2-Nax_EG-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6113_2-Nax_EG-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65278252b97ed4bafac6f534_3-Nax_OG-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6111_3-Nax_OG-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652782522d2a8429f8d38aec_4-Nax_OG-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db610f_4-Nax_OG-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527825219666fe57949062a_5-Nax_coupe-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6110_5-Nax_coupe-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527825286825e74666d83e4_nax-chantier-01-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db6114_nax-chantier-01-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6527825186825e74666d83ae_nax-chantier-02-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db610d_nax-chantier-02-optimized.jpg
     alt: null
 f_order: 3
 f_related-projects-2:

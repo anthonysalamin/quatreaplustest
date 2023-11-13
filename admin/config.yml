@@ -112,6 +112,11 @@ collections:
         name: body
         widget: markdown
         required: false
+      - hint: L'orde à partir duquel les projets sont listés
+        name: f_order
+        label: Order
+        widget: number
+        required: false
       - hint: >-
           Le projet n'est pas encore prêt à être affiché sur la page projets ?
           Si tel est le cas, activer le switch.
@@ -120,11 +125,12 @@ collections:
         widget: boolean
         required: false
         default: false
-      - hint: ''
-        name: f_description-rich-text
-        label: Description (rich text)
-        widget: markdown
+      - hint: Le projet est-t-il en sélection dans le module de filtre ?
+        name: f_selection
+        label: Sélection ?
+        widget: boolean
         required: false
+        default: false
       - hint: 'format: jpg /  size max: 150 ko /'
         name: f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko
         label: Thumbnail
@@ -162,6 +168,11 @@ collections:
             widget: string
             required: false
       - hint: ''
+        name: f_description-rich-text
+        label: Description (rich text)
+        widget: markdown
+        required: false
+      - hint: ''
         name: f_collaboration
         label: Collaboration
         widget: string
@@ -180,17 +191,6 @@ collections:
         name: f_client
         label: Client
         widget: string
-        required: false
-      - hint: Le projet est-t-il en sélection dans le module de filtre ?
-        name: f_selection
-        label: Sélection ?
-        widget: boolean
-        required: false
-        default: false
-      - hint: L'orde à partir duquel les projets sont listés
-        name: f_order
-        label: Order
-        widget: number
         required: false
       - hint: Max 3 projets similaires
         name: f_related-projects-2
@@ -961,9 +961,13 @@ collections:
             label: Text
             name: '-7da4fb61'
             widget: string
-          - hint: 'Original text: Une idée ?, key: 2381cf2a'
+          - hint: 'Original text: Un , key: 14c87'
             label: Text
-            name: 2381cf2a
+            name: 14c87
+            widget: string
+          - hint: 'Original text: projet, key: -3a66b334'
+            label: Text
+            name: '-3a66b334'
             widget: string
           - hint: 'Original text: Discutons-en., key: 650ffc38'
             label: Text
@@ -1007,9 +1011,17 @@ collections:
             label: Text
             name: 44a52ddf
             widget: string
-          - hint: 'Original text: © 2023 quatresaplus.ch, key: 216dce97'
+          - hint: 'Original text: © , key: 1497'
             label: Text
-            name: 216dce97
+            name: '1497'
+            widget: string
+          - hint: 'Original text: XXXX, key: 295600'
+            label: Text
+            name: '295600'
+            widget: string
+          - hint: 'Original text:  quatresaplus.ch, key: 7c235481'
+            label: Text
+            name: 7c235481
             widget: string
           - hint: 'Original text: webdesign ❤️ , key: -199d6cb9'
             label: Text
@@ -1051,25 +1063,17 @@ collections:
             label: Text
             name: '-2a36a7c9'
             widget: string
-          - hint: 'Original text: A — Z, key: 41af2ef'
+          - hint: 'Original text: prendre contact, key: -d505c74'
             label: Text
-            name: 41af2ef
-            widget: string
-          - hint: 'Original text: Sélection, key: -5eba4b98'
-            label: Text
-            name: '-5eba4b98'
-            widget: string
-          - hint: 'Original text: mixitup__featuring, key: -19af644f'
-            label: Text
-            name: '-19af644f'
-            widget: string
-          - hint: 'Original text: please scroll, key: -1c6b203d'
-            label: Text
-            name: '-1c6b203d'
+            name: '-d505c74'
             widget: string
           - hint: 'Original text: Projet, key: -7101c714'
             label: Text
             name: '-7101c714'
+            widget: string
+          - hint: 'Original text: Voir, key: 28c5c2'
+            label: Text
+            name: 28c5c2
             widget: string
           - hint: 'Original text: Kabaret, key: 2a8c404c'
             label: Text
@@ -1083,13 +1087,21 @@ collections:
             label: Text
             name: '-6cb2aee9'
             widget: string
-          - hint: 'Original text: Voir, key: 28c5c2'
+          - hint: 'Original text: please scroll, key: -1c6b203d'
             label: Text
-            name: 28c5c2
+            name: '-1c6b203d'
             widget: string
-          - hint: 'Original text: prendre contact, key: -d505c74'
+          - hint: 'Original text: A — Z, key: 41af2ef'
             label: Text
-            name: '-d505c74'
+            name: 41af2ef
+            widget: string
+          - hint: 'Original text: Sélection, key: -5eba4b98'
+            label: Text
+            name: '-5eba4b98'
+            widget: string
+          - hint: 'Original text: mixitup__featuring, key: -19af644f'
+            label: Text
+            name: '-19af644f'
             widget: string
       - label: Links
         name: links
@@ -1418,7 +1430,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-3e167b83'
+            name: 9492d6
             widget: object
             fields:
               - name: url
@@ -1431,7 +1443,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 9492d6
+            name: '-3e167b83'
             widget: object
             fields:
               - name: url

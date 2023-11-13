@@ -15,42 +15,42 @@ f_description-rich-text: >-
 slug: le-kabaret
 f_thumbnail-800-x-800-px-1-1-ratio-jpg-size-max-100-ko:
   url: >-
-    https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/65277e1353a3888fa6009c20_613b2a54cfaac7eeca26c4ab_kabaret-thumb.jpeg
+    https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db5fdc_613b2a54cfaac7eeca26c4ab_kabaret-thumb.jpeg
   alt: null
-updated-on: '2023-10-20T13:14:25.695Z'
+updated-on: '2023-11-13T04:45:31.309Z'
 created-on: '2023-10-12T05:03:15.571Z'
-published-on: '2023-10-20T13:15:44.670Z'
-f_selection: true
+published-on: '2023-11-13T04:46:21.595Z'
+f_selection: false
 f_images-du-projets:
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d4ffb6ccecd3e47f4c_6-cabaret_situationsplan-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60f7_6-cabaret_situationsplan-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d4fe012e6d41d4b681_7-Cabaret_EG-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60f9_7-Cabaret_EG-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d36368425b9e3f1e91_8-Cabaret_OG-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60e5_8-Cabaret_OG-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d3769cc3dc7c938d81_9-Cabaret_L%C3%A4ngsSchnitt-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60e2_9-Cabaret_L%C3%A4ngsSchnitt-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d32d2a8429f8d30c63_10-Cabaret_Fassade-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60e4_10-Cabaret_Fassade-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d386825e74666cdeec_11-Cabaret_Querschnitt-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60e3_11-Cabaret_Querschnitt-optimized.jpg
     alt: null
   - url: >-
       https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d30a0a3c0bd5005eaa_DJI_0269-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d4b97ed4bafac661da_DJI_0220-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60e6_DJI_0220-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/652781d4f3542383707db0e3_DJI_0243-optimized.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db60fb_DJI_0243-optimized.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6531ff24ba7596c72182f37a_IMG_1768.jpg
+      https://uploads-ssl.webflow.com/6551a02b07f9be76d6db5fbb/6551a02b07f9be76d6db611b_0541aacc-66b0-4d31-9dba-20a0110a2e62.jpg
     alt: null
   - url: >-
       https://uploads-ssl.webflow.com/651d056c9981d3efa9ab3b8f/6531ff247fdd85bf656bbb96_12.jpg

@@ -3,7 +3,7 @@ title: Politique de confidentialité
 slug: politique-de-confidentialite
 updated-on: '2023-10-08T11:31:43.309Z'
 created-on: '2023-10-08T11:31:43.309Z'
-published-on: '2023-10-12T06:54:24.830Z'
+published-on: '2023-11-13T04:06:44.528Z'
 layout: '[mention-legale].html'
 tags: mention-legale
 ---
