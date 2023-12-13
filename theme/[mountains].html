@@ -18,8 +18,8 @@
   {%- assign setItems = f_gallery -%}<div class="w-dyn-list">
     {%- unless setItems.length == 0 -%}<div role="list" class="w-dyn-items w-row">
       {%- for setItem in setItems -%}<div role="listitem" class="collection-item w-dyn-item w-col w-col-6">
-        <a href="{{ links.23 }}" class="w-inline-block w-dyn-bind-empty w-lightbox" style="background-image: url('{{setItem}}');"><img alt="{{ setItem.alt }}" loading="lazy" src="{{ setItem.url }}">
-          <script type="application/json" class="w-json">{"items":[],"group":"gallery"}</script>
+        <a href="{{ links.23 }}" class="w-inline-block w-lightbox" style="background-image: url('{{setItem.url}}');"><img alt="{{ setItem.alt }}" loading="lazy" src="{{ setItem.url }}">
+          <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{{ setItem.url }}","caption":""}],"group":"gallery"}</script>
         </a>
       </div>{%- endfor -%}
     </div>{%- endunless -%}
@@ -29,8 +29,8 @@
   <template><div class="w-dyn-list">
     <div role="list" class="w-dyn-items w-row">
       <div role="listitem" class="collection-item w-dyn-item w-col w-col-6">
-        <a href="{# links.23 #}" class="w-inline-block w-dyn-bind-empty w-lightbox" style="background-image: url('{#setItem#}');"><img alt="{# setItem.alt #}" loading="lazy" src="{# setItem.url #}">
-          <script type="application/json" class="w-json">{"items":[],"group":"gallery"}</script>
+        <a href="{# links.23 #}" class="w-inline-block w-lightbox" style="background-image: url('{#setItem.url#}');"><img alt="{# setItem.alt #}" loading="lazy" src="{# setItem.url #}">
+          <script type="application/json" class="w-json">{"items":[{"type":"image","url":"{# setItem.url #}","caption":""}],"group":"gallery"}</script>
         </a>
       </div>
     </div>

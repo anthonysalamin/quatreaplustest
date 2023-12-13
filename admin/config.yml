@@ -248,10 +248,6 @@ collections:
             label: Text
             name: 3d503d2b
             widget: string
-          - hint: 'Original text: direct image no collection list, key: 5513bbbd'
-            label: Text
-            name: 5513bbbd
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
