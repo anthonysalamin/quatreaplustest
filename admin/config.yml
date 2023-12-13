@@ -80,9 +80,9 @@ collections:
             name: additional_tags
             widget: text
             required: false
-  - name: recipe
-    label: Recipes
-    folder: cms/recipe
+  - name: mountains
+    label: Mountains
+    folder: cms/mountains
     create: true
     identifier_field: name
     extension: md
@@ -108,13 +108,26 @@ collections:
         label: Published On
         widget: datetime
         required: false
-      - label: Ingredients
-        name: body
-        widget: markdown
+      - hint: Used on Recipe list grid
+        name: f_thumbnail-image
+        label: Thumbnail
+        widget: object
         required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
       - hint: ''
         name: f_gallery
-        label: gallery
+        label: Gallery
         widget: list
         required: false
         fields:
@@ -129,71 +142,14 @@ collections:
             label: alt
             widget: string
             required: false
-      - hint: ''
-        name: f_directions
-        label: Directions
-        widget: markdown
-        required: false
-      - hint: ''
-        name: f_recipe-history
-        label: Recipe History
-        widget: markdown
-        required: false
-      - hint: ''
-        name: f_main-image
-        label: Main Image
-        widget: object
-        required: false
-        fields:
-          - hint: ''
-            name: url
-            label: Image
-            widget: image
-            required: false
-            allow_multiple: false
-          - hint: Image Alt
-            name: alt
-            label: alt
-            widget: string
-            required: false
-      - hint: Used on Recipe list grid
-        name: f_thumbnail-image
-        label: Thumbnail Image
-        widget: object
-        required: false
-        fields:
-          - hint: ''
-            name: url
-            label: Image
-            widget: image
-            required: false
-            allow_multiple: false
-          - hint: Image Alt
-            name: alt
-            label: alt
-            widget: string
-            required: false
-      - hint: ''
-        name: f_featured-recipe
-        label: Featured Recipe?
-        widget: boolean
-        required: false
-        default: false
-      - hint: This color will be used for some text and buttons on the Recipe page
-        name: f_color
-        label: Color
-        widget: color
-        required: false
-        enableAlpha: true
-        allowInput: true
       - label: Tags
         widget: hidden
         name: tags
-        default: recipe
+        default: mountains
       - label: Layout
         widget: hidden
         name: layout
-        default: '[recipe].html'
+        default: '[mountains].html'
       - label: Publish Date
         name: date
         widget: datetime

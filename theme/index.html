@@ -14,7 +14,7 @@
             aspect-ratio: 16 / 9;
         }</style></head>
 <body>
-  {%- assign collection = collections.recipe | sort: "-created-on" -%}<div class="w-dyn-list">
+  {%- assign collection = collections.mountains | sort: "-created-on" -%}<div class="w-dyn-list">
     {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items w-row">
       {%- for item in collection -%}<div role="listitem" class="w-dyn-item w-col w-col-3">
         <a href="{{ item.url }}">{{ item.data.title }}</a><img alt="{{ item.data.title }}" loading="lazy" src="{{ item.data.f_thumbnail-image.url }}">
