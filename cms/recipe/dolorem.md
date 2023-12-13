@@ -99,9 +99,16 @@ f_thumbnail-image:
   url: >-
     https://uploads-ssl.webflow.com/65792ced5b4fde66586ca4a0/65792cf9618ff59bf02a543a_image18.jpeg
   alt: null
-updated-on: '2023-12-13T04:03:20.330Z'
+updated-on: '2023-12-13T04:17:51.502Z'
 created-on: '2023-12-13T04:03:06.366Z'
-published-on: null
+published-on: '2023-12-13T04:22:28.175Z'
+f_gallery:
+  - url: >-
+      https://uploads-ssl.webflow.com/65792ced5b4fde66586ca4a0/6579302e16a19b9bb1369205_Screenshot%202023-12-13%20121612.png
+    alt: dolorem 1
+  - url: >-
+      https://uploads-ssl.webflow.com/65792ced5b4fde66586ca4a0/6579302ea44e0cf6af72a761_Screenshot%202023-12-13%20121619.png
+    alt: dolorem 2
 layout: '[recipe].html'
 tags: recipe
 ---

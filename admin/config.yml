@@ -113,6 +113,23 @@ collections:
         widget: markdown
         required: false
       - hint: ''
+        name: f_gallery
+        label: gallery
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
         name: f_directions
         label: Directions
         widget: markdown
@@ -279,8 +296,16 @@ collections:
             label: Text
             name: 5513bbbd
             widget: string
-          - hint: 'Original text: from the collection list, key: 657f49bb'
-            label: Text
-            name: 657f49bb
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
 publish_mode: editorial_workflow
