@@ -23,14 +23,14 @@ f_similar-projects:
   - cms/projects/code-of-silence.md
 updated-on: '2023-12-19T10:23:43.648Z'
 created-on: '2023-12-18T14:34:30.365Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T10:25:26.290Z'
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25142_hero.gif
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658058a0e2b89e3034dddd1b_hero.gif
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25141_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6580589dc124fe326fe70fe6_thumbnail.jpg
   alt: null
 f_has-big-image: false
 f_is-photography: false

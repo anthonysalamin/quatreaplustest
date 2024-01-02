@@ -16,31 +16,31 @@ f_introduction: >-
 slug: portraits
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25183_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816885062834ab35c493b5_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25185_highlight.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168e066fcfa4580e90eb3_highlight.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25184_hero.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168db6d3f9aec8af9a380_hero.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2515a_img_film_otjozondjupa.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816057ca1784715463374c_highlight.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25163_img_namibia_10.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581606d10027173fa981127_img_namibia_10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25180_img_portrait_02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168159cc4953e3fd64e3e_img_portrait_02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25181_img_portrait_01.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658168150201cdf8b85a8219_img_portrait_01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25182_img_portrait_03.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581681723f87c327697fe2b_img_portrait_03.jpg
     alt: null
 f_category-ies:
   - cms/categories/photography.md
@@ -49,7 +49,7 @@ f_similar-projects:
   - cms/projects/south-africa-namibia.md
 updated-on: '2023-12-19T09:58:14.757Z'
 created-on: '2023-12-19T09:56:52.784Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T10:18:25.953Z'
 f_is-graphic-design: false
 layout: '[projects].html'
 tags: projects

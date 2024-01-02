@@ -4,12 +4,12 @@ f_company: Coffe TONYA PH
 title: Kristina Ay-ay
 f_portrait:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2510d_kristina.png
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a764b9d88a6ed87df1368_kristina.png
   alt: null
 slug: kristina-ay-ay
 updated-on: '2023-12-14T10:40:56.809Z'
 created-on: '2023-12-14T03:28:35.288Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-14T10:41:49.606Z'
 layout: '[testimonies].html'
 tags: testimonies
 ---

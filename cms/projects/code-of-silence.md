@@ -16,11 +16,11 @@ f_introduction: >-
 slug: code-of-silence
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25138_hero.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658041e846fa2dba9cc99b67_hero.jpg
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25137_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658041de1e4456cfd61742ac_thumbnail.jpg
   alt: null
 f_category-ies:
   - cms/categories/film.md
@@ -29,7 +29,7 @@ f_similar-projects:
   - cms/projects/otjandjupa.md
 updated-on: '2023-12-19T10:24:55.955Z'
 created-on: '2023-12-18T12:58:26.586Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T10:25:26.290Z'
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false

@@ -20,26 +20,26 @@ f_similar-projects:
   - cms/projects/quatreaplus.md
 updated-on: '2023-12-30T04:52:39.503Z'
 created-on: '2023-12-14T03:45:51.938Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-30T04:56:08.890Z'
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2510e_urbain-05.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7cf3bffc0c253268e629_urbain-05.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25113_urbain-03.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7e11674a4d7e5042a4db_urbain-03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2510f_3e236297-99e2-49be-a483-efa7ca5633cc.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7e10cdde54e924eaa91f_urbain-01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25112_urbain-02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7e110de9a423b68966e3_urbain-02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25111_urbain-04.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7e11a5fe674496328bb0_urbain-04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25110_urbain-05.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a7e104b5f7aa83f145b3f_urbain-05.jpg
     alt: null
 f_testimony-2: cms/testimonies/harry-lionel-salamin.md
 f_tag-1: Web Design
@@ -51,7 +51,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25134_thumbnail-v2.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658021f99bd1697323507c6b_thumbnail-v2.jpg
   alt: null
 f_has-big-image: true
 f_is-photography: false

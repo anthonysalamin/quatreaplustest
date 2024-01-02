@@ -15,55 +15,55 @@ f_introduction: >-
 slug: rocklands-bouldering
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25151_highlgiht.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815adc2b404f4f37c79e14_highlgiht.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25144_img_south-africa_02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589e2db8dd9746883107_img_south-africa_02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514e_img_south-africa_05.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a0a05b9703586f07c3_img_south-africa_05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514d_img_south-africa_06.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a0f2887113a4c7982a_img_south-africa_06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514a_img_south-africa_07.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a0a9915a25484f955a_img_south-africa_07.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514c_img_south-africa_08.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a041501b68665cb7f2_img_south-africa_08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514b_img_south-africa_09.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a0d9f0b3d89c11431a_img_south-africa_09.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25149_img_south-africa_10.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589f9bc86c0ec2ebfd33_img_south-africa_10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25148_img_south-africa_11.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589f946c0d9e786514f9_img_south-africa_11.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25146_img_south-africa_14.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589fea74e8b64e52bb74_img_south-africa_14.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25147_img_south-africa_13.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589fa11900005dc71b69_img_south-africa_13.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2514f_img_south-africa_12.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658158a1e103950e58f6d940_img_south-africa_12.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25145_img_south-africa_04.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581589fa5113138f3362029_img_south-africa_04.jpg
     alt: null
 updated-on: '2023-12-19T09:33:52.160Z'
 created-on: '2023-12-19T08:47:37.528Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T10:18:25.953Z'
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25143_highlight.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581576b11e4fef2ecfff978_higlight.jpg
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25150_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658159c184a5125d9408f7db_thumbnail.jpg
   alt: null
 f_category-ies:
   - cms/categories/photography.md

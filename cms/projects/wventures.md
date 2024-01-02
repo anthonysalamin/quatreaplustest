@@ -13,68 +13,68 @@ f_introduction: >-
 slug: wventures
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f6_wventures-07.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6825050b7a84f02cd176_wventures-07.jpg
   alt: null
 updated-on: '2023-12-30T04:51:53.780Z'
 created-on: '2023-12-14T02:29:43.810Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-30T04:56:08.890Z'
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25109_wventures-01.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d060de9a423b67e6350_wventures-01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25106_wventures-02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d0555d62071618c7ce6_wventures-02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25107_wventures-03.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d057544bcb7618fc6ca_wventures-03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25105_wventures-04.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d04a5fe674496278d7b_wventures-04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25108_wventures-05.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d05f1b0fa60879a043b_wventures-05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25104_wventures-06.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d030047bf74b4b710ce_wventures-06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25102_wventures-07.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d027544bcb7618fc5e4_wventures-07.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25100_wventures-08.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d0155d62071618c7ba7_wventures-08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25101_wventures-09.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d02050b7a84f02ff162_wventures-09.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25103_wventures-10.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d029d88a6ed87d8b8b0_wventures-10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250fd_wventures-21.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d000e8144ca44621cb6_wventures-21.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250fc_wventures-11.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d00d83e6606acf05843_wventures-11.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250fe_wventures-12.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d01bf9cb49e307084ba_wventures-12.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250ff_wventures-15.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6d01eca02823ce56d24f_wventures-15.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f8_wventures-16.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6cff7f3dfd2268c1aa12_wventures-16.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250fb_wventures-17.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6cff4b5f7aa83f09de09_wventures-17.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250fa_wventures-20.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6cff8f1de2d12e36f6af_wventures-20.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f7_wventures-24.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6cffeca02823ce56d101_wventures-24.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f9_wventures-23.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a6cff674a4d7e50378e49_wventures-23.jpg
     alt: null
 f_similar-projects:
   - cms/projects/quatreaplus.md
@@ -92,7 +92,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25133_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801fbbd8ff614c0165ddbc_thumbnail.jpg
   alt: null
 f_has-big-image: true
 f_is-photography: false

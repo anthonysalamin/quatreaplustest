@@ -14,11 +14,11 @@ f_introduction: >-
 slug: quatreaplus
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25019_big-image.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6579723e011ccde8af574b4c_big-image.jpg
   alt: null
 updated-on: '2023-12-30T04:52:23.087Z'
 created-on: '2023-12-13T09:13:34.184Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-30T04:56:08.890Z'
 f_video-thumbnail-2: service
 f_video-thumbnail-3: service_2
 f_video-thumnail-1: quatreaplus
@@ -26,43 +26,43 @@ f_website: https://quatreaplus.ch/
 f_hero-video: true
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f4_quatreaplus-01.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a6f1b0fa6087968b83_quatreaplus-01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f3_quatreaplus-02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a68f1de2d12e32b8ba_quatreaplus-02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250ee_quatreaplus-03.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a5bffc0c25325ac44c_quatreaplus-03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f1_quatreaplus-04.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a574ca6f8a3469e205_quatreaplus-04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f5_quatreaplus-05.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a60047bf74b4b30637_quatreaplus-05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f2_quatreaplus-06.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a6e890c76cc5b6c948_quatreaplus-06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250f0_quatreaplus-07.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a56f96fa8facc96e95_quatreaplus-07.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2503c_quatreaplus-08.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a47f3dfd2268bd864e_quatreaplus-08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25060_quatreaplus-09.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a40e8144ca445d8ef4_quatreaplus-09.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25079_quatreaplus-10.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a474ca6f8a3469e1ae_quatreaplus-10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250dc_quatreaplus-11.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a40de9a423b67a20b3_quatreaplus-11.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae250a9_quatreaplus-12.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a4f3bf5bf2b73ddfe2_quatreaplus-12.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25096_quatreaplus-13.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/657a66a4349ba0abff191a51_quatreaplus-13.jpg
     alt: null
 f_testimony-2: cms/testimonies/camil-amos.md
 f_similar-projects:
@@ -80,7 +80,7 @@ f_thumbnail-title: Web Design & Development
 f_has-gallery-images: true
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251d3_thumbnail-v2.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6583c3060c010c5de09bdd73_thumbnail-v2.jpg
   alt: null
 f_has-big-image: true
 f_is-photography: false

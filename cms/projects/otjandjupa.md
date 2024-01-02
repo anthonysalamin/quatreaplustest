@@ -8,7 +8,7 @@ f_category-ies:
   - cms/categories/film.md
 updated-on: '2023-12-18T13:35:30.720Z'
 created-on: '2023-12-18T07:48:08.140Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-18T13:47:14.000Z'
 f_film-vimeo:
   url: https://vimeo.com/214824139
 f_horizontal-line-1: '#film #documentary #photography'
@@ -21,14 +21,14 @@ f_thumbnail-title: Travel film
 f_has-gallery-images: false
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25129_hero.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658006181e4456cfd6ee0f28_21.jpg
   alt: null
 f_similar-projects:
   - cms/projects/touno.md
   - cms/projects/dahab.md
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25131_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801da02736ba720e4f6494_thumbnail.jpg
   alt: null
 f_has-big-image: false
 f_is-photography: false

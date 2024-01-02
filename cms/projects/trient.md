@@ -16,40 +16,40 @@ f_introduction: >-
 slug: trient
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25177_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658165eca6a83cd184d18f62_thumbnail.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517d_hero.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25178_highlight.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517f_cabane_tryien_2017_096b.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcf68a5aae238c3f7c_cabane_tryien_2017_096b.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517d_hero.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc7cd2777813df3c4c_cabane_tryien_2017_128.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517e_cabane_tryien_2017_164.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dc464f05ecb9d5c440_cabane_tryien_2017_164.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25178_highlight.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db464f05ecb9d5c3c2_cabane_tryien_2017_175.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517a_cabane_tryien_2017_369.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db82d0273366c207ad_cabane_tryien_2017_369.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517b_cabane_tryien_2017_377.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcb4f818e36738d9ee_cabane_tryien_2017_377.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2517c_cabane_tryien_2017_383.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166dcf9077cee5c4d8b88_cabane_tryien_2017_383.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25179_cabane_tryien_2017_423.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658166db2144d45074d45341_cabane_tryien_2017_423.jpg
     alt: null
 f_category-ies:
   - cms/categories/photography.md
@@ -58,7 +58,7 @@ f_similar-projects:
   - cms/projects/gulf-of-aqaba-diving.md
 updated-on: '2023-12-19T09:48:41.493Z'
 created-on: '2023-12-19T09:46:02.117Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T10:18:25.953Z'
 f_is-graphic-design: false
 layout: '[projects].html'
 tags: projects

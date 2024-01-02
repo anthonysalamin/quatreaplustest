@@ -16,40 +16,40 @@ f_introduction: >-
 slug: perversion
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2519d_thumbnail.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817e2ce103950e58134cc4_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25198_highlight.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25199_hero.jpg
+    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2519c_img_perversion_01.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d843a5087c1f3ae53b4_img_perversion_01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2519b_img_perversion_02.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d8481322879a8de9836_img_perversion_02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25198_highlight.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d838164247f7305fe0e_img_perversion_03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25195_img_perversion_04.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d835f11a0fdf5f2ac0e_img_perversion_04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25199_hero.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d83555f4fef9cb89dc8_img_perversion_05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25196_img_perversion_06.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d83a70717a189f413e3_img_perversion_06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25197_highlight.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d8311e4fef2ec1a3e95_img_perversion_07.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2519a_img_perversion_08.jpg
+      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817d83d6fa664b7de215d1_img_perversion_08.jpg
     alt: null
 f_category-ies:
   - cms/categories/graphic-design.md
@@ -57,7 +57,7 @@ f_similar-projects:
   - cms/projects/eagle-cup.md
 updated-on: '2023-12-19T11:47:10.956Z'
 created-on: '2023-12-19T11:27:47.195Z'
-published-on: '2024-01-02T07:01:15.243Z'
+published-on: '2023-12-19T11:48:32.721Z'
 f_is-graphic-design: true
 layout: '[projects].html'
 tags: projects
