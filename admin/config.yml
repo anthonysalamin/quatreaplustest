@@ -623,94 +623,6 @@ collections:
             name: title
             widget: hidden
             default: Texts
-          - hint: 'Original text: GERMANY, key: 26405793'
-            label: Text
-            name: '26405793'
-            widget: string
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
-            widget: string
-          - hint: 'Original text: Gneisenaustrasse 89, key: -35c0e26f'
-            label: Text
-            name: '-35c0e26f'
-            widget: string
-          - hint: 'Original text: 10961 Berlin, Xberg, key: -2401a391'
-            label: Text
-            name: '-2401a391'
-            widget: string
-          - hint: 'Original text: SWITZERLAND, key: -4427f07d'
-            label: Text
-            name: '-4427f07d'
-            widget: string
-          - hint: 'Original text: Chemin de la Monta 24, key: -61e37d5d'
-            label: Text
-            name: '-61e37d5d'
-            widget: string
-          - hint: 'Original text: 1961 St-Luc, Valais, key: 76791489'
-            label: Text
-            name: '76791489'
-            widget: string
-          - hint: 'Original text: PHILIPPINES, key: -2cf0d5f'
-            label: Text
-            name: '-2cf0d5f'
-            widget: string
-          - hint: 'Original text: World Plaza, 29F, key: -716735d3'
-            label: Text
-            name: '-716735d3'
-            widget: string
-          - hint: 'Original text: 5, key: 35'
-            label: Text
-            name: '35'
-            widget: string
-          - hint: 'Original text: th, key: e74'
-            label: Text
-            name: e74
-            widget: string
-          - hint: 'Original text:  Ave, BGC, Manila, key: -36b5514e'
-            label: Text
-            name: '-36b5514e'
-            widget: string
-          - hint: 'Original text: Stories that deliver, key: -3e36a187'
-            label: Text
-            name: '-3e36a187'
-            widget: string
-          - hint: 'Original text: Content that connects, key: -6ac26c65'
-            label: Text
-            name: '-6ac26c65'
-            widget: string
-          - hint: 'Original text: Advanced UX/UI Design, key: -208da464'
-            label: Text
-            name: '-208da464'
-            widget: string
-          - hint: 'Original text: Modern Web Development, key: 309dcb4e'
-            label: Text
-            name: 309dcb4e
-            widget: string
-          - hint: 'Original text: Corporate Identities, key: -2a125749'
-            label: Text
-            name: '-2a125749'
-            widget: string
-          - hint: 'Original text: Modern Web Animations, key: 253c98fc'
-            label: Text
-            name: 253c98fc
-            widget: string
-          - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
-            label: Text
-            name: 29ff8bcf
-            widget: string
-          - hint: 'Original text: Free Audit, key: -185fced9'
-            label: Text
-            name: '-185fced9'
-            widget: string
-          - hint: 'Original text: Imprint, key: -29f92c17'
-            label: Text
-            name: '-29f92c17'
-            widget: string
-          - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
-            label: Text
-            name: '-3fbde6f6'
-            widget: string
           - hint: 'Original text: Portfolio, key: -45b0dad8'
             label: Text
             name: '-45b0dad8'
@@ -726,86 +638,6 @@ collections:
           - hint: 'Original text: Get in touch, key: -5230a9d2'
             label: Text
             name: '-5230a9d2'
-            widget: string
-          - hint: 'Original text: I audit your, key: 2faab58f'
-            label: Text
-            name: 2faab58f
-            widget: string
-          - hint: 'Original text: website for free , key: -255ce428'
-            label: Text
-            name: '-255ce428'
-            widget: string
-          - hint: 'Original text: What are you interested in ?, key: -69410a8e'
-            label: Text
-            name: '-69410a8e'
-            widget: string
-          - hint: 'Original text: Checkbox, key: 5f757fe3'
-            label: Text
-            name: 5f757fe3
-            widget: string
-          - hint: 'Original text: New Website, key: 52cfc5db'
-            label: Text
-            name: 52cfc5db
-            widget: string
-          - hint: 'Original text: Web Relaunch, key: 4b13cb32'
-            label: Text
-            name: 4b13cb32
-            widget: string
-          - hint: 'Original text: LP, key: 984'
-            label: Text
-            name: '984'
-            widget: string
-          - hint: 'Original text: New Logo, key: 5268e86b'
-            label: Text
-            name: 5268e86b
-            widget: string
-          - hint: 'Original text: Design, key: 79ceadde'
-            label: Text
-            name: 79ceadde
-            widget: string
-          - hint: 'Original text: CI launch, key: -38409b53'
-            label: Text
-            name: '-38409b53'
-            widget: string
-          - hint: 'Original text: eCommerce, key: 5ef21a60'
-            label: Text
-            name: 5ef21a60
-            widget: string
-          - hint: 'Original text: JavaScript, key: 4b7aa1ad'
-            label: Text
-            name: 4b7aa1ad
-            widget: string
-          - hint: 'Original text: Support, key: -b54e851'
-            label: Text
-            name: '-b54e851'
-            widget: string
-          - hint: 'Original text: Close, key: 3e2edd8'
-            label: Text
-            name: 3e2edd8
-            widget: string
-          - hint: 'Original text: Next Step, key: -43872027'
-            label: Text
-            name: '-43872027'
-            widget: string
-          - hint: 'Original text: Go Back, key: 6b26c51f'
-            label: Text
-            name: 6b26c51f
-            widget: string
-          - hint: 'Original text: I accept the , key: 1b92f490'
-            label: Text
-            name: 1b92f490
-            widget: string
-          - hint: >-
-              Original text: Thank you! Your submission has been received!, key:
-              5a0ea5a1
-            label: Text
-            name: 5a0ea5a1
-            widget: string
-          - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form., key: -7c112e99
-            label: Text
-            name: '-7c112e99'
             widget: string
           - hint: 'Original text: The only Digital, key: -5827d70d'
             label: Text
@@ -1025,6 +857,10 @@ collections:
           - hint: 'Original text: For tailor-made solutions., key: 19bd32fc'
             label: Text
             name: 19bd32fc
+            widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
             widget: string
           - hint: 'Original text: Let''s talk, key: -13e0cf3b'
             label: Text
@@ -1392,17 +1228,90 @@ collections:
             label: Text
             name: 78a7eb58
             widget: string
-          - hint: 'Original text: I solve your brand identity issues., key: 44056e0'
+          - hint: 'Original text: GERMANY, key: 26405793'
             label: Text
-            name: '44056e0'
+            name: '26405793'
             widget: string
-          - hint: >-
-              Original text: A strong and distinctive brand identity not only
-              captures attention but also fosters trust and recognition., key:
-              -4782eafa
+          - hint: 'Original text: Gneisenaustrasse 89, key: -35c0e26f'
             label: Text
-            name: '-4782eafa'
-            widget: text
+            name: '-35c0e26f'
+            widget: string
+          - hint: 'Original text: 10961 Berlin, Xberg, key: -2401a391'
+            label: Text
+            name: '-2401a391'
+            widget: string
+          - hint: 'Original text: SWITZERLAND, key: -4427f07d'
+            label: Text
+            name: '-4427f07d'
+            widget: string
+          - hint: 'Original text: Chemin de la Monta 24, key: -61e37d5d'
+            label: Text
+            name: '-61e37d5d'
+            widget: string
+          - hint: 'Original text: 1961 St-Luc, Valais, key: 76791489'
+            label: Text
+            name: '76791489'
+            widget: string
+          - hint: 'Original text: PHILIPPINES, key: -2cf0d5f'
+            label: Text
+            name: '-2cf0d5f'
+            widget: string
+          - hint: 'Original text: World Plaza, 29F, key: -716735d3'
+            label: Text
+            name: '-716735d3'
+            widget: string
+          - hint: 'Original text: 5, key: 35'
+            label: Text
+            name: '35'
+            widget: string
+          - hint: 'Original text: th, key: e74'
+            label: Text
+            name: e74
+            widget: string
+          - hint: 'Original text:  Ave, BGC, Manila, key: -36b5514e'
+            label: Text
+            name: '-36b5514e'
+            widget: string
+          - hint: 'Original text: Stories that deliver, key: -3e36a187'
+            label: Text
+            name: '-3e36a187'
+            widget: string
+          - hint: 'Original text: Content that connects, key: -6ac26c65'
+            label: Text
+            name: '-6ac26c65'
+            widget: string
+          - hint: 'Original text: Advanced UX/UI Design, key: -208da464'
+            label: Text
+            name: '-208da464'
+            widget: string
+          - hint: 'Original text: Modern Web Development, key: 309dcb4e'
+            label: Text
+            name: 309dcb4e
+            widget: string
+          - hint: 'Original text: Corporate Identities, key: -2a125749'
+            label: Text
+            name: '-2a125749'
+            widget: string
+          - hint: 'Original text: Modern Web Animations, key: 253c98fc'
+            label: Text
+            name: 253c98fc
+            widget: string
+          - hint: 'Original text: hello@anthonysalamin.ch, key: 29ff8bcf'
+            label: Text
+            name: 29ff8bcf
+            widget: string
+          - hint: 'Original text: Free Audit, key: -185fced9'
+            label: Text
+            name: '-185fced9'
+            widget: string
+          - hint: 'Original text: Imprint, key: -29f92c17'
+            label: Text
+            name: '-29f92c17'
+            widget: string
+          - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
+            label: Text
+            name: '-3fbde6f6'
+            widget: string
           - hint: 'Original text: I worked with, key: 18c47a1f'
             label: Text
             name: 18c47a1f
@@ -1414,238 +1323,6 @@ collections:
             label: Text
             name: '-562f9faf'
             widget: text
-          - hint: >-
-              Original text: An impactful digital presence doesn't have to break
-              the bank. , key: -71ca6556
-            label: Text
-            name: '-71ca6556'
-            widget: string
-          - hint: >-
-              Original text: Explore my budget-friendly packages that deliver
-              quality without compromise., key: -5a24fe3a
-            label: Text
-            name: '-5a24fe3a'
-            widget: string
-          - hint: 'Original text: Website Light, key: -2fedb6ef'
-            label: Text
-            name: '-2fedb6ef'
-            widget: string
-          - hint: 'Original text: For ambitious projects, key: -4480e814'
-            label: Text
-            name: '-4480e814'
-            widget: string
-          - hint: 'Original text: €1.190, key: -3ca26d61'
-            label: Text
-            name: '-3ca26d61'
-            widget: string
-          - hint: 'Original text: Included:, key: 1e38f6de'
-            label: Text
-            name: 1e38f6de
-            widget: string
-          - hint: 'Original text: One-pager with unlimited sections, key: 4ccfbd83'
-            label: Text
-            name: 4ccfbd83
-            widget: string
-          - hint: 'Original text: Concept, Design & Development, key: -597d62e5'
-            label: Text
-            name: '-597d62e5'
-            widget: string
-          - hint: >-
-              Original text: Optimized for Smartphone, Tablet & Desktop, key:
-              -1efda38f
-            label: Text
-            name: '-1efda38f'
-            widget: string
-          - hint: >-
-              Original text: Blazing fast loading time + 99% uptime garanteed,
-              key: -e270627
-            label: Text
-            name: '-e270627'
-            widget: string
-          - hint: 'Original text: Google SEO optimized, key: 442ef37d'
-            label: Text
-            name: 442ef37d
-            widget: string
-          - hint: 'Original text: MVP live in less than 24 hours, key: 3843afa9'
-            label: Text
-            name: 3843afa9
-            widget: string
-          - hint: 'Original text: Website Premium, key: -881306e'
-            label: Text
-            name: '-881306e'
-            widget: string
-          - hint: 'Original text: For demanding businesses, key: -4e4fea72'
-            label: Text
-            name: '-4e4fea72'
-            widget: string
-          - hint: 'Original text: €3.990, key: -3c862057'
-            label: Text
-            name: '-3c862057'
-            widget: string
-          - hint: 'Original text: Flexible, key: 6bd8f7eb'
-            label: Text
-            name: 6bd8f7eb
-            widget: string
-          - hint: 'Original text: Payment, key: 3454c9e6'
-            label: Text
-            name: 3454c9e6
-            widget: string
-          - hint: 'Original text: Everything from Website Light, key: 3a8c6588'
-            label: Text
-            name: 3a8c6588
-            widget: string
-          - hint: >-
-              Original text: Up to 6 different pages driven by robust CMS, key:
-              -6231266c
-            label: Text
-            name: '-6231266c'
-            widget: string
-          - hint: >-
-              Original text: Integration of appointment booking via Calendly,
-              key: 5c75cf91
-            label: Text
-            name: 5c75cf91
-            widget: string
-          - hint: >-
-              Original text: Integration of WhatsApp direct chat to business +
-              form email, key: -36cd992e
-            label: Text
-            name: '-36cd992e'
-            widget: string
-          - hint: 'Original text: Advanced analytics, key: 116da128'
-            label: Text
-            name: 116da128
-            widget: string
-          - hint: 'Original text: From start to live within 4 weeks, key: -688807ff'
-            label: Text
-            name: '-688807ff'
-            widget: string
-          - hint: 'Original text: Tailor-made, key: -3d07b7b1'
-            label: Text
-            name: '-3d07b7b1'
-            widget: string
-          - hint: 'Original text: For tailor-made solutions, key: -2875c48e'
-            label: Text
-            name: '-2875c48e'
-            widget: string
-          - hint: 'Original text: Custom, key: 78fb7791'
-            label: Text
-            name: 78fb7791
-            widget: string
-          - hint: 'Original text: Scope, key: 4c04e34'
-            label: Text
-            name: 4c04e34
-            widget: string
-          - hint: 'Original text: based, key: 592d3b3'
-            label: Text
-            name: 592d3b3
-            widget: string
-          - hint: 'Original text: Possibilities may include:, key: 54a6773c'
-            label: Text
-            name: 54a6773c
-            widget: string
-          - hint: 'Original text: Everything from Website Premium, key: -541c55b7'
-            label: Text
-            name: '-541c55b7'
-            widget: string
-          - hint: 'Original text: eCommerce Shop, key: 2c09a0d6'
-            label: Text
-            name: 2c09a0d6
-            widget: string
-          - hint: >-
-              Original text: > max 6 subpages driven by advanced CMS, key:
-              -5de80e94
-            label: Text
-            name: '-5de80e94'
-            widget: string
-          - hint: 'Original text: API management, key: 45373229'
-            label: Text
-            name: '45373229'
-            widget: string
-          - hint: >-
-              Original text: Because your digital identity deserves to shine as
-              bright as your business., key: -671426ef
-            label: Text
-            name: '-671426ef'
-            widget: string
-          - hint: >-
-              Original text: From pixels to brands that stand out, I create
-              unique online identities., key: 62939b72
-            label: Text
-            name: 62939b72
-            widget: string
-          - hint: 'Original text: Full CI Design, key: -1f28a559'
-            label: Text
-            name: '-1f28a559'
-            widget: string
-          - hint: 'Original text: Logo Design, key: -1781ae2d'
-            label: Text
-            name: '-1781ae2d'
-            widget: string
-          - hint: 'Original text: Biz cards, key: 46f43df6'
-            label: Text
-            name: 46f43df6
-            widget: string
-          - hint: 'Original text: unlimited Graphic Design, key: 6b4a8b55'
-            label: Text
-            name: 6b4a8b55
-            widget: string
-          - hint: >-
-              Original text: From concept to final launch, I design, develop &
-              deploy websites., key: 155cb74b
-            label: Text
-            name: 155cb74b
-            widget: string
-          - hint: 'Original text: Web Design, key: 5ebe804a'
-            label: Text
-            name: 5ebe804a
-            widget: string
-          - hint: 'Original text: SEO, key: 1403d'
-            label: Text
-            name: 1403d
-            widget: string
-          - hint: 'Original text: Web Development, key: 4072162f'
-            label: Text
-            name: 4072162f
-            widget: string
-          - hint: 'Original text: Analytics, key: 1288bb66'
-            label: Text
-            name: 1288bb66
-            widget: string
-          - hint: 'Original text: Email & Hosting, key: -183e1c84'
-            label: Text
-            name: '-183e1c84'
-            widget: string
-          - hint: 'Original text: Ecommerce, key: -2d7629e0'
-            label: Text
-            name: '-2d7629e0'
-            widget: string
-          - hint: >-
-              Original text: Focus on what you do best, I do the rest., key:
-              70c442b6
-            label: Text
-            name: 70c442b6
-            widget: string
-          - hint: 'Original text: Priority Support, key: -3a9472ad'
-            label: Text
-            name: '-3a9472ad'
-            widget: string
-          - hint: 'Original text: Updates, key: 553f78aa'
-            label: Text
-            name: 553f78aa
-            widget: string
-          - hint: 'Original text: Backups, key: 4e86dad1'
-            label: Text
-            name: 4e86dad1
-            widget: string
-          - hint: 'Original text: Hassle-free Management, key: -5ee6b0c4'
-            label: Text
-            name: '-5ee6b0c4'
-            widget: string
-          - hint: 'Original text: Problem solving, key: -241c4765'
-            label: Text
-            name: '-241c4765'
-            widget: string
           - hint: >-
               Original text: An impactful digital presence for a simple
               transparent pricing. , key: -633a982d
@@ -1689,6 +1366,10 @@ collections:
           - hint: 'Original text: 3.989, key: 2e474bf'
             label: Text
             name: 2e474bf
+            widget: string
+          - hint: 'Original text: For tailor-made solutions, key: -2875c48e'
+            label: Text
+            name: '-2875c48e'
             widget: string
           - hint: 'Original text: 8K, key: 713'
             label: Text
@@ -1745,6 +1426,10 @@ collections:
           - hint: 'Original text: Moderate, key: -21089edd'
             label: Text
             name: '-21089edd'
+            widget: string
+          - hint: 'Original text: eCommerce, key: 5ef21a60'
+            label: Text
+            name: 5ef21a60
             widget: string
           - hint: 'Original text: No, key: 9e1'
             label: Text
@@ -1825,62 +1510,6 @@ collections:
             name: '-419d223c'
             widget: string
           - hint: >-
-              Original text: “Anthony is an exceptionally universally gifted
-              creative. In his exploration of various means, methods, and tools,
-              he moves with admirable intuition - highly recommend.”, key:
-              155821fb
-            label: Text
-            name: 155821fb
-            widget: text
-          - hint: 'Original text: What I do, key: 69cf337e'
-            label: Text
-            name: 69cf337e
-            widget: string
-          - hint: 'Original text: My work, key: -464b131b'
-            label: Text
-            name: '-464b131b'
-            widget: string
-          - hint: 'Original text: Schedule a call, key: 5144446'
-            label: Text
-            name: '5144446'
-            widget: string
-          - hint: 'Original text: Currently in, key: 62118adf'
-            label: Text
-            name: 62118adf
-            widget: string
-          - hint: 'Original text: Free UX Audit, key: 33ff7712'
-            label: Text
-            name: 33ff7712
-            widget: string
-          - hint: 'Original text: MAIN Office, key: -190d9cdd'
-            label: Text
-            name: '-190d9cdd'
-            widget: string
-          - hint: 'Original text: ‍Gneisenaustrasse 89, key: -37bd1f9c'
-            label: Text
-            name: '-37bd1f9c'
-            widget: string
-          - hint: 'Original text: 10961 Berlin, key: 3f1580d'
-            label: Text
-            name: 3f1580d
-            widget: string
-          - hint: 'Original text: SWISS Bureau, key: -6a7e7e6b'
-            label: Text
-            name: '-6a7e7e6b'
-            widget: string
-          - hint: 'Original text: 1961 St-Luc, key: 3d8b526b'
-            label: Text
-            name: 3d8b526b
-            widget: string
-          - hint: 'Original text: ASIA, key: 1eccca'
-            label: Text
-            name: 1eccca
-            widget: string
-          - hint: 'Original text: 5th Ave, Metro Manila, key: 31a57058'
-            label: Text
-            name: 31a57058
-            widget: string
-          - hint: >-
               Original text: Ensuring trust and accountability on
               anthonysalamin.ch, key: 60144c49
             label: Text
@@ -1954,9 +1583,29 @@ collections:
             label: Text
             name: 46ed0cac
             widget: string
+          - hint: 'Original text: ‍Gneisenaustrasse 89, key: -37bd1f9c'
+            label: Text
+            name: '-37bd1f9c'
+            widget: string
+          - hint: 'Original text: 10961 Berlin, key: 3f1580d'
+            label: Text
+            name: 3f1580d
+            widget: string
           - hint: 'Original text: SATELITE OFFICE, key: 7be0cbcf'
             label: Text
             name: 7be0cbcf
+            widget: string
+          - hint: 'Original text: 1961 St-Luc, key: 3d8b526b'
+            label: Text
+            name: 3d8b526b
+            widget: string
+          - hint: 'Original text: ASIA, key: 1eccca'
+            label: Text
+            name: 1eccca
+            widget: string
+          - hint: 'Original text: 5th Ave, Metro Manila, key: 31a57058'
+            label: Text
+            name: 31a57058
             widget: string
           - hint: 'Original text: Let''s find a solution that, key: -4baa4bdf'
             label: Text
@@ -1965,6 +1614,10 @@ collections:
           - hint: 'Original text: fits your need, let''s talk., key: -7757edf0'
             label: Text
             name: '-7757edf0'
+            widget: string
+          - hint: 'Original text: Free UX Audit, key: 33ff7712'
+            label: Text
+            name: 33ff7712
             widget: string
           - hint: 'Original text: See images, key: 4c81705'
             label: Text
@@ -1995,103 +1648,6 @@ collections:
               rest for you., key: -5a9fb6e3
             label: Text
             name: '-5a9fb6e3'
-            widget: string
-          - hint: 'Original text: First name *, key: -1e749b'
-            label: Text
-            name: '-1e749b'
-            widget: string
-          - hint: 'Original text: Familly name *, key: -71f57a2d'
-            label: Text
-            name: '-71f57a2d'
-            widget: string
-          - hint: 'Original text: Email *, key: 1967086'
-            label: Text
-            name: '1967086'
-            widget: string
-          - hint: 'Original text: Phone number, key: -1f5cfda5'
-            label: Text
-            name: '-1f5cfda5'
-            widget: string
-          - hint: 'Original text: What best describe you ?, key: 38595169'
-            label: Text
-            name: '38595169'
-            widget: string
-          - hint: 'Original text: Select one..., key: 57f3b1cc'
-            label: Text
-            name: 57f3b1cc
-            widget: string
-          - hint: 'Original text: First Choice, key: -491b32af'
-            label: Text
-            name: '-491b32af'
-            widget: string
-          - hint: 'Original text: Second Choice, key: 3c4172cd'
-            label: Text
-            name: 3c4172cd
-            widget: string
-          - hint: 'Original text: Third Choice, key: -1b351146'
-            label: Text
-            name: '-1b351146'
-            widget: string
-          - hint: 'Original text: What topic are you interested in ?, key: 3719e81'
-            label: Text
-            name: '3719e81'
-            widget: string
-          - hint: 'Original text: First choice, key: -12801ecf'
-            label: Text
-            name: '-12801ecf'
-            widget: string
-          - hint: 'Original text: Second choice, key: 72dc86ad'
-            label: Text
-            name: 72dc86ad
-            widget: string
-          - hint: 'Original text: Third choice, key: 1b66029a'
-            label: Text
-            name: 1b66029a
-            widget: string
-          - hint: 'Original text: Fourth choice, key: 1135da47'
-            label: Text
-            name: 1135da47
-            widget: string
-          - hint: 'Original text: Fifth choice, key: 2fc4e84a'
-            label: Text
-            name: 2fc4e84a
-            widget: string
-          - hint: 'Original text: Other, key: 48f8ef0'
-            label: Text
-            name: 48f8ef0
-            widget: string
-          - hint: 'Original text: Message, key: -63dc6819'
-            label: Text
-            name: '-63dc6819'
-            widget: string
-          - hint: >-
-              Original text: I accept the terms and conditions from
-              anthonysalamin.ch as specified on the Privacy Policy statement.,
-              key: 13f29b00
-            label: Text
-            name: 13f29b00
-            widget: text
-          - hint: 'Original text: I audit your , key: -3a54038f'
-            label: Text
-            name: '-3a54038f'
-            widget: string
-          - hint: 'Original text: I am interested in..., key: -3240ff51'
-            label: Text
-            name: '-3240ff51'
-            widget: string
-          - hint: 'Original text: back, key: 2e04e7'
-            label: Text
-            name: 2e04e7
-            widget: string
-          - hint: 'Original text: next, key: 338af3'
-            label: Text
-            name: 338af3
-            widget: string
-          - hint: >-
-              Original text: I accept anthonysalamin.ch Privacy Policy., key:
-              -1ca61d20
-            label: Text
-            name: '-1ca61d20'
             widget: string
           - hint: >-
               Original text: Looking for a new website or a refined brand
@@ -2154,6 +1710,10 @@ collections:
             label: Text
             name: '-4559195e'
             widget: string
+          - hint: 'Original text: LP, key: 984'
+            label: Text
+            name: '984'
+            widget: string
           - hint: 'Original text: Relaunch, key: -1d311c3a'
             label: Text
             name: '-1d311c3a'
@@ -2162,9 +1722,17 @@ collections:
             label: Text
             name: '-2e23df36'
             widget: string
+          - hint: 'Original text: Web Development, key: 4072162f'
+            label: Text
+            name: 4072162f
+            widget: string
           - hint: 'Original text: Emails, key: 7bec1477'
             label: Text
             name: 7bec1477
+            widget: string
+          - hint: 'Original text: Logo Design, key: -1781ae2d'
+            label: Text
+            name: '-1781ae2d'
             widget: string
           - hint: 'Original text: Corporate Identity, key: -6478f5a7'
             label: Text
@@ -2173,6 +1741,10 @@ collections:
           - hint: 'Original text: Web Analytics, key: -4d1f3e86'
             label: Text
             name: '-4d1f3e86'
+            widget: string
+          - hint: 'Original text: SEO, key: 1403d'
+            label: Text
+            name: 1403d
             widget: string
           - hint: 'Original text: Technical Support, key: 3e5b85cc'
             label: Text
@@ -2228,6 +1800,10 @@ collections:
             label: Text
             name: '-389e5363'
             widget: string
+          - hint: 'Original text: Other, key: 48f8ef0'
+            label: Text
+            name: 48f8ef0
+            widget: string
           - hint: >-
               Original text: Ready to submit the form and kick off a new project
               with me!, key: 7eee56a
@@ -2259,81 +1835,17 @@ collections:
             name: 29d0ac79
             widget: text
           - hint: >-
-              Original text: I provide a free audit of your existing website,
-              accompanied by a detailed report highlighting potential areas for
-              improvement. This service does not entail any contractual
-              obligations with me., key: -6bdfc002
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
             label: Text
-            name: '-6bdfc002'
-            widget: text
-          - hint: 'Original text: NEW Website, key: 4113c1db'
-            label: Text
-            name: 4113c1db
-            widget: string
-          - hint: 'Original text: Relaunch Website, key: 3881d221'
-            label: Text
-            name: 3881d221
-            widget: string
-          - hint: "Original text: UX/UI\_Design, key: -6488302"
-            label: Text
-            name: '-6488302'
-            widget: string
-          - hint: 'Original text: DNS, key: 10909'
-            label: Text
-            name: '10909'
-            widget: string
-          - hint: 'Original text: Email setup, key: 7c731cd9'
-            label: Text
-            name: 7c731cd9
+            name: 5a0ea5a1
             widget: string
           - hint: >-
-              Original text: Which pricing package is the most suitable for
-              you?, key: 37c8fce1
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
             label: Text
-            name: 37c8fce1
+            name: '-7c112e99'
             widget: string
-          - hint: >-
-              Original text: For small businesses seeking affordability or
-              medium-sized enterprises desiring extensive features, my , key:
-              -d267993
-            label: Text
-            name: '-d267993'
-            widget: text
-          - hint: 'Original text: pricing packages, key: -4ad90bf9'
-            label: Text
-            name: '-4ad90bf9'
-            widget: string
-          - hint: 'Original text:  are designed to meet your needs., key: -2310b0ed'
-            label: Text
-            name: '-2310b0ed'
-            widget: string
-          - hint: >-
-              Original text: We value your identity and how you wish to be
-              addressed. When you share your full name with us, please also
-              include the pronoun you prefer., key: 93f3dfb
-            label: Text
-            name: 93f3dfb
-            widget: text
-          - hint: >-
-              Original text: By using my email form, you acknowledge and agree
-              that the information you submit will be used solely for the
-              purpose of addressing your inquiry or request. I do not share,
-              sell, or disclose your personal information to any third parties
-              without your explicit consent, except as required by law. If you
-              have any concerns about the information you are providing or the
-              manner in which it will be handled, please do not hesitate to
-              contact me directly via the provided address in the , key:
-              -7e0cf876
-            label: Text
-            name: '-7e0cf876'
-            widget: text
-          - hint: >-
-              Original text:  page. I reserve the right to update or modify my
-              privacy policy at any time, and any changes will be reflected on
-              my website., key: -62c29137
-            label: Text
-            name: '-62c29137'
-            widget: text
           - hint: >-
               Original text: Thank you, your form has been sent, I will review
               it ASAP., key: -18ea4149
@@ -2354,26 +1866,6 @@ collections:
             name: title
             widget: hidden
             default: Links
-          - hint: >-
-              Original link: mailto:hello@anthonysalamin.ch?subject=Contact,
-              key: 6523b8f7
-            label: Link
-            name: 6523b8f7
-            widget: string
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
-            widget: string
-          - hint: 'Original link: #services, key: -686fc27f'
-            label: Link
-            name: '-686fc27f'
-            widget: string
-          - hint: >-
-              Original link: https://www.linkedin.com/in/anthonysalamin/, key:
-              663eed27
-            label: Link
-            name: 663eed27
-            widget: string
           - hint: 'Original link: /, key: 2f'
             label: Link
             name: 2f
@@ -2397,10 +1889,6 @@ collections:
             label: Link
             name: 16bdc13e
             widget: string
-          - hint: 'Original link: /legal/privacy-policy/, key: 78d8cfd3'
-            label: Link
-            name: 78d8cfd3
-            widget: string
           - hint: 'Original link: #targetAnchor, key: 5c9ed349'
             label: Link
             name: 5c9ed349
@@ -2411,16 +1899,29 @@ collections:
             label: Link
             name: 1c4eb2cf
             widget: string
+          - hint: >-
+              Original link: mailto:hello@anthonysalamin.ch?subject=Contact,
+              key: 6523b8f7
+            label: Link
+            name: 6523b8f7
+            widget: string
+          - hint: >-
+              Original link: https://www.linkedin.com/in/anthonysalamin/, key:
+              663eed27
+            label: Link
+            name: 663eed27
+            widget: string
           - hint: 'Original link: /legal/imprint/, key: -6bce3a35'
             label: Link
             name: '-6bce3a35'
             widget: string
-          - hint: >-
-              Original link:
-              https://library.relume.io/components?uncommon-2=Uncommon, key:
-              -1c50b0e0
+          - hint: 'Original link: /legal/privacy-policy/, key: 78d8cfd3'
             label: Link
-            name: '-1c50b0e0'
+            name: 78d8cfd3
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
           - hint: 'Original link: #gallery, key: 281599cf'
             label: Link
@@ -2438,6 +1939,58 @@ collections:
             name: title
             widget: hidden
             default: Images
+          - label: Image
+            name: 7fdc2565
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i46796a01
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: c8a5c77
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i3aa60452
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
           - label: Image
             name: '-3aa60452'
             widget: object
@@ -2739,71 +2292,6 @@ collections:
                 required: false
           - label: Image
             name: 3f058655
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-381a7579'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-34253535'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 263be54b
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7d38cecd
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-e68e60f'
             widget: object
             fields:
               - name: url
