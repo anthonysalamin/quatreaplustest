@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html data-wf-page="6565594186e587567235d08c" data-wf-site="6565594186e587567235d089" lang="en"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="657970c9b402cd207c96731b" data-wf-site="6565594186e587567235d089" lang="en"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
+  
+  
   
   
   
@@ -190,7 +192,7 @@
     transition: all 200ms linear;
   }
 </style>
-{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
 <body>
@@ -229,7 +231,7 @@ p {
     <nav data-id="target" class="nav">
       <div class="container">
         <div class="nav__container">
-          <a href="{{ links.2f }}" aria-label="logo" aria-current="page" class="nav__logomark-link w-nav-brand w--current"><svg class="logomark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.21 20.62" width="100%" height="100%">
+          <a href="{{ links.2f }}" aria-label="logo" class="nav__logomark-link w-nav-brand"><svg class="logomark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.21 20.62" width="100%" height="100%">
               <path class="logomark__path" d="M6.81 20.62a6.625 6.625 0 0 1-6.47-4.7 6.412 6.412 0 0 1 3.98-8.13c2.8-.94 5.88-.49 8.3 1.22l.15.12c-.1-1.45-.64-2.85-1.53-4-1.27-1.34-2.93-1.71-5.13-1.16-.83.22-1.64.53-2.4.93-.56.29-1.24.11-1.59-.41l-.7-1.04c-.39-.56-.25-1.33.31-1.72h.01c.04-.03.08-.05.12-.07C2.89 1.13 3.97.7 5.08.39c3.56-.93 6.63-.17 8.86 2.19 1.97 2.09 3.32 6.74 2.18 10.92 0 .03-.02.05-.02.09.64 1.64 1 3.37 1.08 5.13.04.68-.48 1.27-1.16 1.32H14.7c-.67 0-1.22-.52-1.25-1.18-.02-.28-.03-.53-.07-.8a10.033 10.033 0 0 1-4.11 2.21c-.81.24-1.64.36-2.48.36Zm.41-9.57c-.57 0-1.14.09-1.68.28-1.4.48-2.16 2-1.68 3.41 0 .03.02.06.03.09.43 1.37 1.8 2.57 4.35 1.85a5.738 5.738 0 0 0 3.77-2.9c-.41-.67-.95-1.25-1.58-1.71a5.71 5.71 0 0 0-3.22-1.01Z"></path>
             </svg></a>
           <div data-id="menu" class="nav__menu-container">
@@ -322,7 +324,7 @@ p {
             </div>
           </div>
           <div class="form__wrapper w-form">
-            <form id="wf-form-contact" name="wf-form-contact" data-name="contact" method="get" class="form" data-wf-page-id="6565594186e587567235d08c" data-wf-element-id="f95d91c1-caf6-acdd-c6c7-3f707a7a986a" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+            <form id="wf-form-contact" name="wf-form-contact" data-name="contact" method="get" class="form" data-wf-page-id="657970c9b402cd207c96731b" data-wf-element-id="f95d91c1-caf6-acdd-c6c7-3f707a7a986a" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
               <div if-step="I am interested in" class="step">
                 <div class="legend form-down">{{ texts.-69410a8e }}</div>
                 <div class="group check">
@@ -491,159 +493,184 @@ p {
               </div>
             </div>
           </div>
-          <div class="header__hero-video">
-            <div class="teaser__cloudinary w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/quatreaplus.jpg">
-                <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1701163839/PORTFOLIO/quatreaplus.mp4" type="video/mp4">
-                Your browser does not support modern video tag, please update your browser.
-              </video></div>
-            <div class="teaser__cloudinary w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/wventures.jpg">
-                <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1701171077/PORTFOLIO/wventures.mp4" type="video/mp4">
-                Your browser does not support modern video tag, please update your browser.
-              </video></div>
-            <div class="teaser__cloudinary last w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/urbain.jpg">
-                <source src="https://res.cloudinary.com/anthonysalamin/video/upload/v1701163598/PORTFOLIO/urbain.mp4" type="video/mp4">
-                Your browser does not support modern video tag, please update your browser.
-              </video></div>
-          </div>
+          {%- if f_hero-image-static -%}<div class="hero-static" style="background-image: url('{{f_hero-image-static.url}}');"></div>{%- endif -%}
+          {%- if f_hero-video == true -%}<div class="header__hero-video">
+            <div class="teaser__cloudinary w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/{{ f_video-thumnail-1 }}.jpg">
+  <source src="{{ f_video-1 }}" type="video/mp4">
+  Your browser does not support modern video tag, please update your browser.
+</video></div>
+            <div class="teaser__cloudinary w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/{{ f_video-thumbnail-2 }}.jpg">
+  <source src="{{ f_video-2 }}" type="video/mp4">
+  Your browser does not support modern video tag, please update your browser.
+</video></div>
+            <div class="teaser__cloudinary last w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" poster="https://res.cloudinary.com/anthonysalamin/video/upload/w_25,e_blur:1000/PORTFOLIO/{{ f_video-thumbnail-3 }}.jpg">
+  <source src="{{ f_video-3 }}" type="video/mp4">
+  Your browser does not support modern video tag, please update your browser.
+</video></div>
+          </div>{%- endif -%}
           <div class="teaser__info-wrap">
-            <p class="subline">{{ texts.5bf79be2 }}</p>
-            <a href="{{ links.6ec07556 }}" class="link-block w-inline-block">
-              <div class="text">{{ texts.-1828f665 }}</div>
-              <div class="lottie-arrow-right" data-w-id="33856fbb-d753-33ec-a119-7174ea7b8d74" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
-            </a>
+            <p class="subline">{{ f_introduction }}</p>
+            {%- if f_is-photography == true -%}<a href="{{ links.281599cf }}" class="link-block w-inline-block">
+              <div class="text">{{ texts.4c81705 }}</div>
+              <div class="lottie-arrow-right" data-w-id="e0b2453f-3de5-9054-1ae0-fd7d48abd531" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+            </a>{%- endif -%}
+            {%- if f_film-vimeo -%}<a href="{{ links.21d2c27 }}" class="link-block w-inline-block">
+              <div class="text">{{ texts.6d5fa655 }}</div>
+              <div class="lottie-arrow-right" data-w-id="b3d8ce3b-0404-ce97-d0b9-cf97d4423731" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+            </a>{%- endif -%}
+            {%- if f_website -%}<a href="{{ f_website }}" class="link-block w-inline-block">
+              <div class="text">{{ texts.6b3eddae }}</div>
+              <div class="lottie-arrow-right" data-w-id="3fa5536a-6a85-7cb5-8045-736ef6fa3b5c" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+            </a>{%- endif -%}
+            {%- if f_is-graphic-design == true -%}<a href="{{ links.281599cf }}" class="link-block w-inline-block">
+              <div class="text">{{ texts.401a0fe4 }}</div>
+              <div class="lottie-arrow-right" data-w-id="1d0e19c6-537d-27ca-aeb9-7129aee0be57" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+            </a>{%- endif -%}
           </div>
         </div>
       </div>
     </header>
     <main class="main">
       <section class="section horizontal-scroll">
-        <div data-w-id="4af0b417-bbea-f646-5f3b-7a486fe0b93a" class="xl-scroll">
-          <div data-w-id="4af0b417-bbea-f646-5f3b-7a486fe0b93b" class="xl-scroll__wrapper">
-            <div class="xl-scroll__title a">{{ texts.-790057fa }}</div>
+        <div data-w-id="cb8e5f35-dda6-0603-0cb4-c01d44b12945" class="xl-scroll">
+          <div data-w-id="cb8e5f35-dda6-0603-0cb4-c01d44b12946" class="xl-scroll__wrapper">
+            <div class="xl-scroll__title a">{{ f_horizontal-line-1 }}</div>
           </div>
           <div class="xl-scroll__wrapper">
-            <div class="xl-scroll__title b">{{ texts.359c97f3 }}</div>
+            <div class="xl-scroll__title b">{{ f_horizontal-line-2 }}</div>
           </div>
         </div>
       </section>
-      <section class="section markees">
-        <div class="container">
-          <div class="header_component">
-            <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e6e-7235d08c" class="header_content-left">
-              <h1 class="punchline short">{{ texts.387507a }}</h1>
-              <div class="card-wrap-info">
-                <p class="subline">{{ texts.-1faf18af }}<br></p>
-                <div class="cta-wrap">
-                  <a href="{{ links.16bdc13e }}" class="cta w-inline-block">
-                    <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
-                    <div class="cta__text">{{ texts.3ac1ed43 }}</div>
-                  </a>
-                  <a href="{{ links.5c9ed349 }}" class="cta secondary w-inline-block">
-                    <div class="cta__text">{{ texts.-6675051a }}</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="header_content-right">
-              <div class="header_images-layout">
-                <div class="header_image-list-left">
-                  <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e82-7235d08c" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e83-7235d08c" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e84-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e85-7235d08c" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e86-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e87-7235d08c" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e88-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | trim | escape }}" class="header_image"></div>
-                  </div>
-                  <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e89-7235d08c" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8a-7235d08c" class="header_image-wrapper"><img src="{{ images.-268bce30.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8b-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-268bce30.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8c-7235d08c" class="header_image-wrapper"><img src="{{ images.2a242f13.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8d-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.2a242f13.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8e-7235d08c" class="header_image-wrapper"><img src="{{ images.f0f282a.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e8f-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.f0f282a.alt | trim | escape }}" class="header_image"></div>
-                  </div>
-                </div>
-                <div class="header_image-list-right">
-                  <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e91-7235d08c" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e92-7235d08c" class="header_image-wrapper"><img src="{{ images.58a8a50a.url }}" loading="eager" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e93-7235d08c" alt="{{ images.58a8a50a.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e94-7235d08c" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e95-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e96-7235d08c" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e97-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | trim | escape }}" class="header_image"></div>
-                  </div>
-                  <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e98-7235d08c" class="header_image-list">
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e99-7235d08c" class="header_image-wrapper"><img src="{{ images.23abcbe3.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9a-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.23abcbe3.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9b-7235d08c" class="header_image-wrapper"><img src="{{ images.-266f9f2e.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9c-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.-266f9f2e.alt | trim | escape }}" class="header_image"></div>
-                    <div id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9d-7235d08c" class="header_image-wrapper"><img src="{{ images.24bba308.url }}" loading="lazy" id="w-node-f4b25fdb-bbfa-6a56-308b-89c5f6a06e9e-7235d08c" sizes="(max-width: 767px) 44vw, (max-width: 991px) 22vw, 20vw" alt="{{ images.24bba308.alt | trim | escape }}" class="header_image"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="section hero-video">
+        <div class="container fullwidth">
+          {%- if f_film-vimeo -%}<div id="film" class="video w-video w-embed">{%- embedVideo f_film-vimeo -%}</div>{%- endif -%}
         </div>
       </section>
-      <section id="targetAnchor" class="section">
+      <section class="section">
         <div class="container">
-          <div class="mixitup">
-            <div id="mixitup-controls" class="mixitup__controls w-clearfix">
-              <div class="search"><input type="text" class="search__field w-input" maxlength="256" name="Search" data-name="Search" placeholder="Search something" id="mixitup-search"></div>
-              <div data-filter="all" class="filter checked">
-                <div class="filter__wrap">
-                  <div class="filter__text center">{{ texts.41af2ef }}</div>
-                </div>
-              </div>
-              <div data-filter=".mixitup__featuring" class="filter">
-                <div class="filter__wrap">
-                  <div class="filter__text">{{ texts.-7b8160af }}</div>
-                  <div class="embed-icon-xs extra-margin-left w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g fill="currentColor">
-                        <path d="M7.45284 2.71266C7.8276 1.76244 9.1724 1.76245 9.54716 2.71267L10.7085 5.65732C10.8229 5.94743 11.0526 6.17707 11.3427 6.29148L14.2873 7.45284C15.2376 7.8276 15.2376 9.1724 14.2873 9.54716L11.3427 10.7085C11.0526 10.8229 10.8229 11.0526 10.7085 11.3427L9.54716 14.2873C9.1724 15.2376 7.8276 15.2376 7.45284 14.2873L6.29148 11.3427C6.17707 11.0526 5.94743 10.8229 5.65732 10.7085L2.71266 9.54716C1.76244 9.1724 1.76245 7.8276 2.71267 7.45284L5.65732 6.29148C5.94743 6.17707 6.17707 5.94743 6.29148 5.65732L7.45284 2.71266Z"></path>
-                        <path d="M16.9245 13.3916C17.1305 12.8695 17.8695 12.8695 18.0755 13.3916L18.9761 15.6753C19.039 15.8348 19.1652 15.961 19.3247 16.0239L21.6084 16.9245C22.1305 17.1305 22.1305 17.8695 21.6084 18.0755L19.3247 18.9761C19.1652 19.039 19.039 19.1652 18.9761 19.3247L18.0755 21.6084C17.8695 22.1305 17.1305 22.1305 16.9245 21.6084L16.0239 19.3247C15.961 19.1652 15.8348 19.039 15.6753 18.9761L13.3916 18.0755C12.8695 17.8695 12.8695 17.1305 13.3916 16.9245L15.6753 16.0239C15.8348 15.961 15.961 15.8348 16.0239 15.6753L16.9245 13.3916Z"></path>
+          <div class="description w-richtext">{{ content | markdown }}</div>
+        </div>
+      </section>
+      {%- if f_testimony-2 -%}<section class="section quote">
+        <div class="container">
+          <div class="quote-wrapper">
+            <div class="testimonial-card project">
+              {%- assign testimoniesOfProjects = f_testimony-2 | resolveReference -%}<div class="subline quote w-richtext">{{ testimoniesOfProjects.templateContent | markdown | markdown }}</div>
+              <div class="testimonial-author-wrap">
+                <div class="avatar__bg darker">{%- assign testimoniesOfProjects = f_testimony-2 | resolveReference -%}<img loading="lazy" src="{{ testimoniesOfProjects.data.f_portrait.url }}" alt="{{ testimoniesOfProjects.data.f_portrait.alt }}" class="avatar__img">
+                  <div class="embed-linkedin w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.87 520.87">
+                      <path fill="#1275b1" d="M260.43 0c143.83 0 260.43 116.6 260.43 260.43s-116.6 260.43-260.43 260.43C116.6 520.87 0 404.27 0 260.43 0 116.6 116.6 0 260.43 0Z" class="cls-2"></path>
+                      <g fill="#fff">
+                        <path d="M197.53 143.09c0 17.38-15.07 31.48-33.66 31.48s-33.66-14.09-33.66-31.48 15.07-31.48 33.66-31.48 33.66 14.09 33.66 31.48ZM134.82 197.71h57.53v174.34h-57.53V197.71ZM284.98 197.71h-57.53v174.34h57.53v-89.2c0-20.6 7.03-41.29 35.1-41.29 31.71 0 31.52 26.95 31.37 47.84-.19 27.3.27 55.15.27 82.65h57.53v-92.01c-.49-58.75-15.8-85.82-66.16-85.82-29.91 0-48.45 13.58-58.11 25.86v-22.37Z" class="cls-1"></path>
                       </g>
                     </svg></div>
                 </div>
-              </div>
-              {%- assign collection = collections.categories | sort: "f_order" -%}<div class="filter__collection-list-wrapper w-dyn-list">
-                {%- unless collection.length == 0 -%}<div role="list" class="filter__collection-list w-dyn-items">
-                  {%- for item in collection -%}<div role="listitem" class="filter__collection-item w-clearfix w-dyn-item">
-                    <div data-filter="" class="filter">
-                      <div class="filter__wrap">
-                        <div class="filter__text">{{ item.data.title }}</div>
-                        <div class="filter__round margin-left" style="background-color: {{item.data.f_color}};"></div>
-                      </div>
-                    </div>
-                  </div>{%- endfor -%}
-                </div>{%- endunless -%}
-                {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-                  <div>{{ texts.3d503d2b }}</div>
-                </div>{%- endif -%}
-              </div>
-            </div>
-            <div id="status" class="status">{{ texts.-37ac8366 }}</div>
-            {%- assign collection = collections.projects | filter: "f_on-display,eq,true", "ALL", page.inputPath | sort: "f_order" -%}<div class="mixitup__collection-list-wrapper w-dyn-list">
-              {%- unless collection.length == 0 -%}<div id="mixitup-container" role="list" class="mixitup__collection-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="mixitup__collection-item w-dyn-item">
-                  <div class="mixitup__helpers">
-                    <div class="mixitup__title hide">{{ item.data.title }}</div>
-                    {%- if item.data.f_highlight == true -%}<div class="mixitup__featuring hide">{{ texts.-19af644f }}</div>{%- endif -%}
-                    {%- assign categoriesOfProjects = item.data.f_category-ies | resolveMultiReferences -%}<div class="w-dyn-list">
-                      {%- unless categoriesOfProjects.length == 0 -%}<div role="list" class="collection-list-5 w-dyn-items">
-                        {%- for item in categoriesOfProjects -%}<div role="listitem" class="collection-item-4 w-dyn-item">
-                          <div class="mixitup__category hide">{{ item.data.title }}</div>
-                          <div class="filter__round" style="background-color: {{item.data.f_color}};"></div>
-                        </div>{%- endfor -%}
-                      </div>{%- endunless -%}
+                <div class="testimonial-author">
+                  {%- assign testimoniesOfProjects = f_testimony-2 | resolveReference -%}<p class="bold">{{ testimoniesOfProjects.data.title }}</p>
+                  <p class="mini">{{ testimoniesOfProjects.data.f_occupation }}</p>
+                  <p class="mini">{{ testimoniesOfProjects.data.f_company }}</p>
+                  <div class="rewiews-wrap quote">
+                    <div class="wrap-stars small">
+                      <div class="icon-star small w-embed"><svg width="100%" height="100%" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>star</title>
+                          <defs>
+                          </defs>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-99.000000, -320.000000)" fill="#ffe435">
+                              <g transform="translate(56.000000, 160.000000)">
+                                <path d="M60.556381,172.206 C60.1080307,172.639 59.9043306,173.263 60.0093306,173.875 L60.6865811,177.791 C60.8976313,179.01 59.9211306,180 58.8133798,180 C58.5214796,180 58.2201294,179.931 57.9282291,179.779 L54.3844766,177.93 C54.1072764,177.786 53.8038262,177.714 53.499326,177.714 C53.1958758,177.714 52.8924256,177.786 52.6152254,177.93 L49.0714729,179.779 C48.7795727,179.931 48.4782224,180 48.1863222,180 C47.0785715,180 46.1020708,179.01 46.3131209,177.791 L46.9903714,173.875 C47.0953715,173.263 46.8916713,172.639 46.443321,172.206 L43.575769,169.433 C42.4480682,168.342 43.0707186,166.441 44.6289197,166.216 L48.5916225,165.645 C49.211123,165.556 49.7466233,165.17 50.0227735,164.613 L51.7951748,161.051 C52.143775,160.35 52.8220755,160 53.499326,160 C54.1776265,160 54.855927,160.35 55.2045272,161.051 L56.9769285,164.613 C57.2530787,165.17 57.7885791,165.556 58.4080795,165.645 L62.3707823,166.216 C63.9289834,166.441 64.5516338,168.342 63.423933,169.433 L60.556381,172.206 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
+                      <div class="icon-star small w-embed"><svg width="100%" height="100%" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>star</title>
+                          <defs>
+                          </defs>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-99.000000, -320.000000)" fill="#ffe435">
+                              <g transform="translate(56.000000, 160.000000)">
+                                <path d="M60.556381,172.206 C60.1080307,172.639 59.9043306,173.263 60.0093306,173.875 L60.6865811,177.791 C60.8976313,179.01 59.9211306,180 58.8133798,180 C58.5214796,180 58.2201294,179.931 57.9282291,179.779 L54.3844766,177.93 C54.1072764,177.786 53.8038262,177.714 53.499326,177.714 C53.1958758,177.714 52.8924256,177.786 52.6152254,177.93 L49.0714729,179.779 C48.7795727,179.931 48.4782224,180 48.1863222,180 C47.0785715,180 46.1020708,179.01 46.3131209,177.791 L46.9903714,173.875 C47.0953715,173.263 46.8916713,172.639 46.443321,172.206 L43.575769,169.433 C42.4480682,168.342 43.0707186,166.441 44.6289197,166.216 L48.5916225,165.645 C49.211123,165.556 49.7466233,165.17 50.0227735,164.613 L51.7951748,161.051 C52.143775,160.35 52.8220755,160 53.499326,160 C54.1776265,160 54.855927,160.35 55.2045272,161.051 L56.9769285,164.613 C57.2530787,165.17 57.7885791,165.556 58.4080795,165.645 L62.3707823,166.216 C63.9289834,166.441 64.5516338,168.342 63.423933,169.433 L60.556381,172.206 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
+                      <div class="icon-star small w-embed"><svg width="100%" height="100%" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>star</title>
+                          <defs>
+                          </defs>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-99.000000, -320.000000)" fill="#ffe435">
+                              <g transform="translate(56.000000, 160.000000)">
+                                <path d="M60.556381,172.206 C60.1080307,172.639 59.9043306,173.263 60.0093306,173.875 L60.6865811,177.791 C60.8976313,179.01 59.9211306,180 58.8133798,180 C58.5214796,180 58.2201294,179.931 57.9282291,179.779 L54.3844766,177.93 C54.1072764,177.786 53.8038262,177.714 53.499326,177.714 C53.1958758,177.714 52.8924256,177.786 52.6152254,177.93 L49.0714729,179.779 C48.7795727,179.931 48.4782224,180 48.1863222,180 C47.0785715,180 46.1020708,179.01 46.3131209,177.791 L46.9903714,173.875 C47.0953715,173.263 46.8916713,172.639 46.443321,172.206 L43.575769,169.433 C42.4480682,168.342 43.0707186,166.441 44.6289197,166.216 L48.5916225,165.645 C49.211123,165.556 49.7466233,165.17 50.0227735,164.613 L51.7951748,161.051 C52.143775,160.35 52.8220755,160 53.499326,160 C54.1776265,160 54.855927,160.35 55.2045272,161.051 L56.9769285,164.613 C57.2530787,165.17 57.7885791,165.556 58.4080795,165.645 L62.3707823,166.216 C63.9289834,166.441 64.5516338,168.342 63.423933,169.433 L60.556381,172.206 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
+                      <div class="icon-star small w-embed"><svg width="100%" height="100%" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>star</title>
+                          <defs>
+                          </defs>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-99.000000, -320.000000)" fill="#ffe435">
+                              <g transform="translate(56.000000, 160.000000)">
+                                <path d="M60.556381,172.206 C60.1080307,172.639 59.9043306,173.263 60.0093306,173.875 L60.6865811,177.791 C60.8976313,179.01 59.9211306,180 58.8133798,180 C58.5214796,180 58.2201294,179.931 57.9282291,179.779 L54.3844766,177.93 C54.1072764,177.786 53.8038262,177.714 53.499326,177.714 C53.1958758,177.714 52.8924256,177.786 52.6152254,177.93 L49.0714729,179.779 C48.7795727,179.931 48.4782224,180 48.1863222,180 C47.0785715,180 46.1020708,179.01 46.3131209,177.791 L46.9903714,173.875 C47.0953715,173.263 46.8916713,172.639 46.443321,172.206 L43.575769,169.433 C42.4480682,168.342 43.0707186,166.441 44.6289197,166.216 L48.5916225,165.645 C49.211123,165.556 49.7466233,165.17 50.0227735,164.613 L51.7951748,161.051 C52.143775,160.35 52.8220755,160 53.499326,160 C54.1776265,160 54.855927,160.35 55.2045272,161.051 L56.9769285,164.613 C57.2530787,165.17 57.7885791,165.556 58.4080795,165.645 L62.3707823,166.216 C63.9289834,166.441 64.5516338,168.342 63.423933,169.433 L60.556381,172.206 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
+                      <div class="icon-star small w-embed"><svg width="100%" height="100%" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>star</title>
+                          <defs>
+                          </defs>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-99.000000, -320.000000)" fill="#ffe435">
+                              <g transform="translate(56.000000, 160.000000)">
+                                <path d="M60.556381,172.206 C60.1080307,172.639 59.9043306,173.263 60.0093306,173.875 L60.6865811,177.791 C60.8976313,179.01 59.9211306,180 58.8133798,180 C58.5214796,180 58.2201294,179.931 57.9282291,179.779 L54.3844766,177.93 C54.1072764,177.786 53.8038262,177.714 53.499326,177.714 C53.1958758,177.714 52.8924256,177.786 52.6152254,177.93 L49.0714729,179.779 C48.7795727,179.931 48.4782224,180 48.1863222,180 C47.0785715,180 46.1020708,179.01 46.3131209,177.791 L46.9903714,173.875 C47.0953715,173.263 46.8916713,172.639 46.443321,172.206 L43.575769,169.433 C42.4480682,168.342 43.0707186,166.441 44.6289197,166.216 L48.5916225,165.645 C49.211123,165.556 49.7466233,165.17 50.0227735,164.613 L51.7951748,161.051 C52.143775,160.35 52.8220755,160 53.499326,160 C54.1776265,160 54.855927,160.35 55.2045272,161.051 L56.9769285,164.613 C57.2530787,165.17 57.7885791,165.556 58.4080795,165.645 L62.3707823,166.216 C63.9289834,166.441 64.5516338,168.342 63.423933,169.433 L60.556381,172.206 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></div>
                     </div>
                   </div>
-                  <a href="{{ item.url }}" class="mixitup__wrap w-inline-block">
-                    <div class="thumb__wrap-no-overflow ratio-a">
-                      <div class="thumb__hover-desktop">
-                        <div class="thumb__location">{{ item.data.f_thumbnail-title }}</div>
-                      </div><img loading="lazy" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="thumb__project">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>{%- endif -%}
+      <section class="section">
+        <div class="container">
+          <div class="div-block-6">
+            <p class="punchline">{{ texts.-443520d1 }}</p>
+            <a href="{{ links.6ec07556 }}" class="btn__link-wrap w-inline-block">
+              <div class="text">{{ texts.20991839 }}</div>
+              <div class="lottie-arrow-right" data-w-id="7df674b9-6659-0137-85e1-9d17e11e3e44" data-animation-type="lottie" data-src="/assets/documents/animation-1703003839505-1.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+            </a>
+          </div>
+          {%- assign projectsOfProjects = f_similar-projects | resolveMultiReferences -%}<div class="similar__cl-wrapper w-dyn-list">
+            {%- unless projectsOfProjects.length == 0 -%}<div role="list" class="similar__cl w-dyn-items w-row">
+              {%- for item in projectsOfProjects -%}<div data-w-id="7f737bae-0e0c-46b3-23a8-a3284c610cd9" style="opacity:0" role="listitem" class="similar__item w-dyn-item w-col w-col-6">
+                <div class="similar__wrap">
+                  <a href="{{ item.url }}" class="similar__link w-inline-block">
+                    <div class="similar__img-wrap"><img src="{{ item.data.f_thumbnail.url }}" loading="lazy" alt="{{ item.data.f_thumbnail.alt }}" class="similar__img">
+                      <div class="similar__icon-wrap">
+                        <div class="embed__arrow-open w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 18.414 18.414">
+                            <path id="arrow-up-right-from-square-svgrepo-com" d="M20,4l-8,8m8-8V8.5M20,4H15.5M19,12.5v4.3a4.968,4.968,0,0,1-.218,2.108,2,2,0,0,1-.874.874A4.968,4.968,0,0,1,15.8,20H7.2a4.968,4.968,0,0,1-2.108-.218,2,2,0,0,1-.874-.874A4.969,4.969,0,0,1,4,16.8V8.2a4.969,4.969,0,0,1,.218-2.108,2,2,0,0,1,.874-.874A4.969,4.969,0,0,1,7.2,5h4.3" transform="translate(-3 -2.586)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                          </svg></div>
+                      </div>
                     </div>
-                    <div class="thumb__wrap-mobile">
-                      <div class="text-block-5 bold">{{ item.data.title }}</div>
+                    <div class="similar__title-wrap">
+                      <div class="subline semibold bottom-margin">{{ item.data.title }}</div>
+                      <div class="subline">{{ item.data.f_introduction }}</div>
                     </div>
                   </a>
-                </div>{%- endfor -%}
-              </div>{%- endunless -%}
-              {%- if collection.length == 0 -%}<div class="empty-state w-dyn-empty">
-                <div class="empty-text">{{ texts.3d503d2b }}</div>
-              </div>{%- endif -%}
-            </div>
+                </div>
+              </div>{%- endfor -%}
+            </div>{%- endunless -%}
+            {%- if projectsOfProjects.length == 0 -%}<div class="empty-state w-dyn-empty">
+              <div class="empty-text">{{ texts.3d503d2b }}</div>
+            </div>{%- endif -%}
           </div>
         </div>
       </section>
@@ -1455,13 +1482,13 @@ p {
               <div class="header_content-left big">
                 <h1 class="punchline short">{{ texts.-60ede2b2 }}</h1>
                 <div class="card-wrap-info">
-                  <p class="subline">{{ texts.21e91b01 }}</p>
+                  <p class="subline">{{ texts.-5a9fb6e3 }}</p>
                   <div class="cta-wrap">
-                    <a href="{{ links.16bdc13e }}" class="cta w-inline-block">
+                    <a href="{{ links.6523b8f7 }}" class="cta w-inline-block">
                       <div class="avatar__bg btn"><img src="{{ images.-3aa60452.url }}" loading="lazy" alt="{{ images.-3aa60452.alt | trim | escape }}" class="avatar__img"></div>
                       <div class="cta__text">{{ texts.3ac1ed43 }}</div>
                     </a>
-                    <a href="{{ links.6ec07556 }}" target="_blank" class="cta secondary w-inline-block">
+                    <a href="{{ links.23 }}" target="_blank" class="cta secondary w-inline-block">
                       <div class="cta__text">{{ texts.-6675051a }}</div>
                     </a>
                   </div>
@@ -2202,15 +2229,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!copyrightYear) return;
   copyrightYear.textContent = new Date().getFullYear();
 });
-</script><!--  MixItUp 3 library v3.3.1  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
-  <script>
-/*
- * QUATREAPLUS | MixItUp
- * Behaviour: filter multi-categories (one dimension) + sort + search + hash URL function
- * Build: 12.10.2023 @16:01
- */
-document.addEventListener("DOMContentLoaded",()=>{const production=false;setDataAttribute();filterChecked();featToClass();categToClass();titleToClass();mixItUp(production)});function cleanAndTransformString(str){const accentMap={ä:"a",Ä:"a",à:"a",À:"a",é:"e",É:"e",è:"e",È:"e",ö:"o",Ö:"o",ü:"u",Ü:"u"};let cleanedString=str;for(const accentChar in accentMap){const normalChar=accentMap[accentChar];const accentRegex=new RegExp(accentChar,"g");cleanedString=cleanedString.replace(accentRegex,normalChar)}const removedSpecialCharacters=cleanedString.replace(/[^a-zA-Z0-9-]/g,"");const lowercaseString=removedSpecialCharacters.toLowerCase();return lowercaseString}function setDataAttribute(){const controls=document.getElementById("mixitup-controls");const buttons=controls.querySelectorAll('[data-filter=""]');Array.from(buttons).forEach((button)=>{const content=button.textContent;const contentCleaned=cleanAndTransformString(content);button.setAttribute("data-filter",`.${ contentCleaned }`)})}function filterChecked(){const controls=document.getElementById("mixitup-controls"),buttons=document.getElementsByClassName("filter");Array.from(buttons).forEach((button)=>{button.addEventListener("click",(event)=>{let target=event.currentTarget;if(target.classList!="filter checked"){controls.querySelector(".filter.checked").classList.remove("checked");target.classList.add("checked")}else{return}});})}function featToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{const featured=mix.querySelector(".mixitup__featuring");if(!featured){return}const stringFeat=featured.textContent,classNameFeat=stringFeat.split(" ").join("");const feat=mix.querySelector(".mixitup__featuring");if(mix.querySelector(".mixitup__featuring").classList!="mixitup__featuring w-condition-invisible"){mix.classList.add(classNameFeat.toLowerCase().trim())}})}function categToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{const categories=mix.querySelectorAll(".mixitup__category");categories.forEach((category)=>{const stringCateg=category.textContent;const classNameCateg=cleanAndTransformString(stringCateg);mix.classList.add(classNameCateg)})})}function titleToClass(){const mixes=document.getElementsByClassName("mixitup__collection-item");Array.from(mixes).forEach((mix)=>{let stringTitle=mix.querySelector(".mixitup__title").textContent,classNameTitle=stringTitle.split(" ").join("");mix.classList.add(classNameTitle.toLowerCase().trim())})}function mixItUp(production){const container=document.getElementById("mixitup-container"),inputSearch=document.getElementById("mixitup-search");let keyupTimeout,searchValue,status=document.getElementById("status");if(!production){status.innerHTML="Portfolio"}function mixFailBtn(){const controls=document.getElementById("controlsMixItUp"),buttons=document.getElementsByClassName("filter"),feat=document.querySelector("button[data-filter='.mixitup__featuring']");Array.from(buttons).forEach((button)=>{if(feat.classList!="filter checked"){controls.querySelector(".filter.checked").classList.remove("checked");feat.classList.add("checked")}})}const mixer=mixitup(container,{load:{filter:".webdevelopment"},selectors:{target:".mixitup__collection-item"},animation:{duration:450,nudge:true,reverseOut:true,effects:"fade scale(0.77) translateZ(-68px) stagger(6ms)"},callbacks:{onMixStart:handleMixStart,onMixEnd:handleMixEnd,onMixFail:handleMixFail}});function handleMixStart(){document.querySelector(`#status`).textContent=`Searching...`}function handleMixFail(){document.querySelector(`#status`).textContent=`No matching item to display.`;console.log("error");setTimeout(function(){setTimeout(function(){mixer.filter("*");},150)},250)}function handleMixEnd(){const totalItems=document.querySelectorAll(`.mixitup__collection-item`).length;const filteredItems=mixer.getState().totalShow;const displayElement=document.querySelector(`#status`);if(displayElement){displayElement.textContent=` ${ filteredItems } result${filteredItems>1?`s`:``}`}}function getControls(){const dataFilters=document.querySelectorAll(`[data-filter]`);return[...dataFilters]}(function setHashFromFilter(){let filterValue,filterValueCleaned,filterFromHash,filters=document.getElementsByClassName("filter");Array.from(filters).forEach((filter)=>{filter.addEventListener("click",(event)=>{if(event.currentTarget.hasAttribute("data-filter")){filterValue=event.currentTarget.getAttribute("data-filter")}if(!filterValue.includes(".")){filterValue=`.${ filterValue }`}filterValueCleaned=filterValue.split(".")[1];location.hash="filter="+encodeURIComponent(filterValueCleaned)});if(location.hash){if(location.hash=="#filter=all"){filterFromHash="all"}else{filterFromHash=location.hash.replace("#filter=",".")}mixer.filter(filterFromHash);let oldFilter=document.querySelector(".filter.checked").classList.remove("checked");let newFilter=document.querySelector(`[data-filter="${ filterFromHash }"]`).classList.add("checked")}})})();inputSearch.addEventListener("keyup",(event)=>{if(inputSearch.value.length<1){searchValue=""}else{searchValue=inputSearch.value.toLowerCase().trim()}clearTimeout(keyupTimeout);keyupTimeout=setTimeout(function(){filterByString(searchValue)},350)});function filterByString(searchValue){if(searchValue){mixer.filter(`[class*="${ searchValue }"]`)}else{document.querySelector(".filter.checked").classList.remove("checked");document.querySelector("[data-filter='.mixitup__featuring']").classList.add("checked");mixer.filter(".mixitup__featuring")}}}
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
