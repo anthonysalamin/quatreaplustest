@@ -3,7 +3,7 @@ title: Privacy Policy
 slug: privacy-policy
 updated-on: '2023-12-12T11:39:10.340Z'
 created-on: '2023-12-12T11:15:46.421Z'
-published-on: '2023-12-12T11:48:19.991Z'
+published-on: '2024-01-02T07:01:15.243Z'
 layout: '[legal-text].html'
 tags: legal-text
 ---

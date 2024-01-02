@@ -16,7 +16,7 @@ f_introduction: >-
 slug: dahab
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6580178ada303a85acdf3d67_cover.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2512d_hero.jpg
   alt: null
 f_category-ies:
   - cms/categories/film.md
@@ -25,10 +25,10 @@ f_similar-projects:
   - cms/projects/touno.md
 updated-on: '2023-12-18T13:35:19.197Z'
 created-on: '2023-12-18T09:33:43.234Z'
-published-on: '2023-12-18T13:47:14.000Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801d11aafdc45e6534f19f_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25130_thumbnail.jpg
   alt: null
 f_has-big-image: false
 f_is-photography: false

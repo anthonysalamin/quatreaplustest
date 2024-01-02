@@ -17,40 +17,40 @@ f_introduction: >-
 slug: arolla-pine
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816afd3a5087c1f39c6cc6_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25188_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25186_highlight.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816b37f3348f27577292ac_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25189_hero.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a983ec93457d09f4a7a_img_racine_01.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25187_img_racine_01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da4561f8f93c3f34f7b_026.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518f_026.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da3c1d57744f805180a_063.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518e_063.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da312ef38140336851f_128-28.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518d_128-28.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da3ce6df7cee506da48_144-02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518b_144-02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da30e13f32fb4efa3d7_173.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518c_173.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816da2ca178471546dbb0f_212.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2518a_212.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816a985c7a0752bc473a7d_img_racine_02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25186_highlight.jpg
     alt: null
 f_category-ies:
   - cms/categories/photography.md
@@ -59,7 +59,7 @@ f_similar-projects:
   - cms/projects/portraits.md
 updated-on: '2023-12-19T10:17:38.585Z'
 created-on: '2023-12-19T10:06:52.637Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_is-graphic-design: false
 layout: '[projects].html'
 tags: projects

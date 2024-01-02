@@ -16,11 +16,11 @@ f_introduction: >-
 slug: cave-du-verseau
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6580446d28d0be36fc22bedb_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25139_thumbnail.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658044703384c3c33cd5f950_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2513a_hero.jpg
   alt: null
 f_category-ies:
   - cms/categories/film.md
@@ -29,7 +29,7 @@ f_similar-projects:
   - cms/projects/dahab.md
 updated-on: '2023-12-18T13:35:07.658Z'
 created-on: '2023-12-18T13:09:11.628Z'
-published-on: '2023-12-18T13:47:14.000Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false

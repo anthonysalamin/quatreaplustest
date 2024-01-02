@@ -16,11 +16,11 @@ f_introduction: >-
 slug: eternal-return
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658047e7c46facb7f9d2748d_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2513b_thumbnail.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658047eaf5a2024c9040bd82_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2513c_hero.jpg
   alt: null
 f_category-ies:
   - cms/categories/film.md
@@ -29,7 +29,7 @@ f_similar-projects:
   - cms/projects/genesis-behind-the-scenes.md
 updated-on: '2023-12-19T10:24:45.744Z'
 created-on: '2023-12-18T13:24:05.232Z'
-published-on: '2023-12-19T10:25:26.290Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false

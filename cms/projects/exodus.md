@@ -3,11 +3,11 @@ f_has-gallery-images: false
 f_hero-video: false
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658056424751b18ff147425b_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2513f_thumbnail.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65805647de88efae9c537e8b_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25140_hero.jpg
   alt: null
 f_highlight: false
 f_on-display: true
@@ -29,7 +29,7 @@ f_similar-projects:
   - cms/projects/code-of-silence.md
 updated-on: '2023-12-19T10:24:35.619Z'
 created-on: '2023-12-18T14:15:29.220Z'
-published-on: '2023-12-19T10:25:26.290Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_has-big-image: false
 f_is-photography: false
 f_is-graphic-design: false

@@ -21,14 +21,14 @@ f_similar-projects:
   - cms/projects/dahab.md
 updated-on: '2023-12-19T10:25:05.099Z'
 created-on: '2023-12-18T09:49:54.518Z'
-published-on: '2023-12-19T10:25:26.290Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801abd2687d9c67f2df6d2_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2512e_hero.jpg
   alt: null
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65801cbc54838aafd29c8a03_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2512f_thumbnail.jpg
   alt: null
 f_has-big-image: false
 f_is-photography: false

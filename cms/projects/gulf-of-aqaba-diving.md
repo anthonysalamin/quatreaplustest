@@ -15,49 +15,49 @@ f_introduction: >-
 slug: gulf-of-aqaba-diving
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163733ec93457d0989449_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25171_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516c_highlight.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516a_hero.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816316d3b258d33be93d09_img_egypt_03.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516f_img_egypt_03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163178bced97cfeb20c43_img_egypt_04.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25170_img_egypt_04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163166a28387a230afacc_img_egypt_05.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516e_img_egypt_05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581631513835057a094606a_img_egypt_06.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516d_img_egypt_06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65816315b3b1e152949bb89b_img_egypt_07.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516c_highlight.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163142b404f4f37cc641c_img_egypt_08.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516b_img_egypt_08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163140201cdf8b856db4c_img_egypt_09.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae2516a_hero.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163136dd9ffc5d4b0912b_img_egypt_10.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25167_img_egypt_10.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163139d2ea44f23014f71_img_egypt_12.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25166_img_egypt_12.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163137cd2777813dcae90_img_egypt_01.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25168_img_egypt_01.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658163130e13f32fb4e52d3b_img_egypt_02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25169_img_egypt_02.jpg
     alt: null
 f_category-ies:
   - cms/categories/photography.md
@@ -66,7 +66,7 @@ f_similar-projects:
   - cms/projects/south-africa-namibia.md
 updated-on: '2023-12-19T09:34:16.071Z'
 created-on: '2023-12-19T09:33:43.958Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_order: 24
 f_is-graphic-design: false
 layout: '[projects].html'

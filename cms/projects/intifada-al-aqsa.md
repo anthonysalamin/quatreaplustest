@@ -18,28 +18,28 @@ f_introduction: >-
 slug: intifada-al-aqsa
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/6581858fc3d98d4615458f2e_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251ad_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251aa_highlight.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251ab_hero.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d77c74b957e785ac96_img_intifada_01.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251a9_hero.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7a5113138f3549e0d_img_intifada_03.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251ab_hero.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d7441714e1db471fd2_img_intifada_02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251aa_highlight.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658184d83ec93457d0b240e1_img_intifada_04.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251ac_img_intifada_04.jpg
     alt: null
 f_category-ies:
   - cms/categories/graphic-design.md
@@ -48,7 +48,7 @@ f_similar-projects:
   - cms/projects/perversion.md
 updated-on: '2023-12-19T11:59:16.512Z'
 created-on: '2023-12-19T11:59:16.512Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-01-02T07:01:15.243Z'
 layout: '[projects].html'
 tags: projects
 ---

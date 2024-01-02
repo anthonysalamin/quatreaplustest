@@ -16,34 +16,34 @@ f_introduction: >-
 slug: eagle-cup
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd0e13f32fb4f7e6bf_img_eaglecup_03.svg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25190_thumbnail.svg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd0e13f32fb4f7e6bf_img_eaglecup_03.svg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25190_thumbnail.svg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25193_hero.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65817beca045a6e103fbf2d9_full-logo-animated.svg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25194_full-logo-animated.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd555f4fef9cb6732b_img_eaglecup_08.svg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25191_img_eaglecup_08.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd22f8c5cabeea3336_img_eaglecup_02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25192_hero.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658179cd3a5087c1f3a9cf6e_img_eaglecup_05.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25193_hero.jpg
     alt: null
 f_category-ies:
   - cms/categories/graphic-design.md
 updated-on: '2023-12-19T11:50:00.443Z'
 created-on: '2023-12-19T11:11:22.780Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_similar-projects:
   - cms/projects/perversion.md
   - cms/projects/maison-noee.md

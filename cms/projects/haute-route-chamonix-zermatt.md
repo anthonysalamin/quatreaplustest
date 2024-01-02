@@ -3,31 +3,31 @@ f_has-gallery-images: true
 f_hero-video: false
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d4f38523e751248ae07_thumbnail.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25152_thumbnail.jpg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25154_img_haute-route_06.jpg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d759d2ea44f23fda6ea_img_haute-route_02.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25156_img_haute-route_02.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d75a05b751a6bc85174_img_haute-route_03.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25157_img_haute-route_03.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25153_img_haute-route_04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d74a11900005dca5ad3_img_haute-route_05.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25155_img_haute-route_05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d6a12ef3814032b7988_highlight.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25154_img_haute-route_06.jpg
     alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65815d55f4346e0a8b51610b_hero.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae25153_img_haute-route_04.jpg
   alt: null
 f_highlight: true
 f_on-display: true
@@ -47,7 +47,7 @@ f_similar-projects:
   - cms/projects/south-africa-namibia.md
 updated-on: '2023-12-19T09:34:00.325Z'
 created-on: '2023-12-19T09:03:10.477Z'
-published-on: '2023-12-19T10:18:25.953Z'
+published-on: '2024-01-02T07:01:15.243Z'
 f_is-photography: true
 f_order: 22
 f_is-graphic-design: false

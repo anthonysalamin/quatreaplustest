@@ -18,37 +18,37 @@ f_introduction: >-
 slug: mindsquare-ci-launch
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b2_thumbnail.svg
   alt: null
 f_big-image:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d64d341b8e99769f12_img_mindsquare_03.jpg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b5_highlight.jpg
   alt: null
 f_hero-image-static:
   url: >-
-    https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d4a1edb8c6b9712782_img_mindsquare_07.svg
+    https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b2_thumbnail.svg
   alt: null
 f_gallery:
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/65818846206eb252fe66bef3_test.svg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b6_test.svg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d46bbf7deaf2f4d461_img_mindsquare_06.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b0_img_mindsquare_06.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d3093aab6d4e5b74f4_img_mindsquare_09.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251ae_img_mindsquare_09.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d40cdfe876cc9b004c_img_mindsquare_08.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b1_img_mindsquare_08.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d581322879a8e57b90_img_mindsquare_05.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b3_img_mindsquare_05.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d6a5113138f355cc6d_img_mindsquare_04.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251b4_img_mindsquare_04.jpg
     alt: null
   - url: >-
-      https://uploads-ssl.webflow.com/657840207424d689b5f9b7d8/658186d44b431bddbc703e90_img_mindsquare_10.jpg
+      https://uploads-ssl.webflow.com/6593b2f4f9e271cb5ae25013/6593b2f4f9e271cb5ae251af_img_mindsquare_10.jpg
     alt: null
 f_category-ies:
   - cms/categories/graphic-design.md
@@ -57,7 +57,7 @@ f_similar-projects:
   - cms/projects/eagle-cup.md
 updated-on: '2023-12-19T12:10:56.089Z'
 created-on: '2023-12-19T12:06:02.996Z'
-published-on: '2023-12-19T12:12:14.455Z'
+published-on: '2024-01-02T07:01:15.243Z'
 layout: '[projects].html'
 tags: projects
 ---
